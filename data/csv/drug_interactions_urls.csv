@@ -1,0 +1,1064 @@
+Drug ID,Drug Name,Drug Interactions URL
+1,Abecma,"https://www.drugs.com/drug-interactions/idecabtagene-vicleucel,abecma.html"
+2,Abilify,"https://www.drugs.com/drug-interactions/aripiprazole,abilify-index.html"
+3,Abilify Asimtufii,"https://www.drugs.com/drug-interactions/aripiprazole,abilify-asimtufii-index.html"
+4,Abilify Maintena,"https://www.drugs.com/drug-interactions/aripiprazole,abilify-maintena-index.html"
+5,Abiraterone,https://www.drugs.com/drug-interactions/abiraterone-index.html
+6,Acetaminophen,https://www.drugs.com/drug-interactions/acetaminophen-index.html
+7,Acetylcysteine,https://www.drugs.com/drug-interactions/acetylcysteine.html
+8,Actemra,"https://www.drugs.com/drug-interactions/tocilizumab,actemra-index.html"
+9,Actos,"https://www.drugs.com/drug-interactions/pioglitazone,actos-index.html"
+10,Acyclovir,https://www.drugs.com/drug-interactions/acyclovir-index.html
+11,Adderall,"https://www.drugs.com/drug-interactions/amphetamine-dextroamphetamine,adderall-index.html"
+12,Adderall XR,"https://www.drugs.com/drug-interactions/amphetamine-dextroamphetamine,adderall-xr-index.html"
+13,Advair Diskus,"https://www.drugs.com/drug-interactions/fluticasone-salmeterol,advair-diskus-index.html"
+14,Advil,"https://www.drugs.com/drug-interactions/ibuprofen,advil-index.html"
+15,Afinitor,"https://www.drugs.com/drug-interactions/everolimus,afinitor-index.html"
+16,Agamree,"https://www.drugs.com/drug-interactions/vamorolone,agamree.html"
+17,Aimovig,"https://www.drugs.com/drug-interactions/erenumab,aimovig.html"
+18,Ajovy,"https://www.drugs.com/drug-interactions/fremanezumab,ajovy.html"
+19,Albuterol Inhalation,https://www.drugs.com/drug-interactions/albuterol-index.html
+20,Alecensa,"https://www.drugs.com/drug-interactions/alectinib,alecensa-index.html"
+21,Alendronate,https://www.drugs.com/drug-interactions/alendronate-index.html
+22,Aleve,"https://www.drugs.com/drug-interactions/naproxen,aleve-index.html"
+24,Allegra,"https://www.drugs.com/drug-interactions/fexofenadine,allegra-index.html"
+25,Allopurinol,https://www.drugs.com/drug-interactions/allopurinol-index.html
+26,Alprazolam,https://www.drugs.com/drug-interactions/alprazolam-index.html
+27,Alprolix,"https://www.drugs.com/drug-interactions/coagulation-factor-ix,alprolix.html"
+28,Alunbrig,"https://www.drugs.com/drug-interactions/brigatinib,alunbrig-index.html"
+29,Amantadine,https://www.drugs.com/drug-interactions/amantadine-index.html
+30,Ambien,"https://www.drugs.com/drug-interactions/zolpidem,ambien-index.html"
+31,Amiodarone,https://www.drugs.com/drug-interactions/amiodarone-index.html
+32,Amitriptyline,https://www.drugs.com/drug-interactions/amitriptyline-index.html
+33,Amlodipine,https://www.drugs.com/drug-interactions/amlodipine-index.html
+34,Amoxicillin,https://www.drugs.com/drug-interactions/amoxicillin-index.html
+35,Amoxicillin and Clavulanate,https://www.drugs.com/drug-interactions/amoxicillin-clavulanate-index.html
+36,Ampicillin,https://www.drugs.com/drug-interactions/ampicillin-index.html
+38,Anastrozole,https://www.drugs.com/drug-interactions/anastrozole.html
+39,AndroGel,"https://www.drugs.com/drug-interactions/testosterone,androgel-index.html"
+40,Annovera Vaginal Ring,"https://www.drugs.com/drug-interactions/ethinyl-estradiol-segesterone,annovera-index.html"
+41,Apalutamide,https://www.drugs.com/drug-interactions/apalutamide-index.html
+42,Apixaban,https://www.drugs.com/drug-interactions/apixaban-index.html
+43,Apokyn,"https://www.drugs.com/drug-interactions/apomorphine,apokyn-index.html"
+44,Apriso,"https://www.drugs.com/drug-interactions/mesalamine,apriso-index.html"
+45,Aptiom,"https://www.drugs.com/drug-interactions/eslicarbazepine,aptiom-index.html"
+46,Aricept,"https://www.drugs.com/drug-interactions/donepezil,aricept-index.html"
+47,Arikayce,"https://www.drugs.com/drug-interactions/amikacin-liposome,arikayce-index.html"
+48,Arimidex,"https://www.drugs.com/drug-interactions/anastrozole,arimidex.html"
+49,Aripiprazole,https://www.drugs.com/drug-interactions/aripiprazole-index.html
+50,Aristada Injection,"https://www.drugs.com/drug-interactions/aripiprazole,aristada-index.html"
+51,Aromasin,"https://www.drugs.com/drug-interactions/exemestane,aromasin-index.html"
+52,Aspirin,https://www.drugs.com/drug-interactions/aspirin-index.html
+53,Atarax,"https://www.drugs.com/drug-interactions/hydroxyzine,atarax-index.html"
+54,Atenolol,https://www.drugs.com/drug-interactions/atenolol-index.html
+55,Ativan,"https://www.drugs.com/drug-interactions/lorazepam,ativan-index.html"
+56,Atogepant,https://www.drugs.com/drug-interactions/atogepant-index.html
+57,Atomoxetine,https://www.drugs.com/drug-interactions/atomoxetine-index.html
+58,Atorvastatin,https://www.drugs.com/drug-interactions/atorvastatin-index.html
+59,Aubagio,"https://www.drugs.com/drug-interactions/teriflunomide,aubagio-index.html"
+60,Augmentin,"https://www.drugs.com/drug-interactions/amoxicillin-clavulanate,augmentin-index.html"
+61,Austedo,"https://www.drugs.com/drug-interactions/deutetrabenazine,austedo-index.html"
+62,Auvelity,"https://www.drugs.com/drug-interactions/bupropion-dextromethorphan,auvelity-index.html"
+63,Auvi-Q,"https://www.drugs.com/drug-interactions/epinephrine,auvi-q-index.html"
+65,Avonex,"https://www.drugs.com/drug-interactions/interferon-beta-1a,avonex-index.html"
+66,Azathioprine,https://www.drugs.com/drug-interactions/azathioprine-index.html
+67,Azilect,"https://www.drugs.com/drug-interactions/rasagiline,azilect-index.html"
+68,Azithromycin,https://www.drugs.com/drug-interactions/azithromycin-index.html
+69,Azulfidine,"https://www.drugs.com/drug-interactions/sulfasalazine,azulfidine-index.html"
+70,Baclofen,https://www.drugs.com/drug-interactions/baclofen-index.html
+71,Bactrim,"https://www.drugs.com/drug-interactions/sulfamethoxazole-trimethoprim,bactrim-index.html"
+73,Balsalazide,https://www.drugs.com/drug-interactions/balsalazide-index.html
+74,Banzel,"https://www.drugs.com/drug-interactions/rufinamide,banzel-index.html"
+75,Baqsimi,"https://www.drugs.com/drug-interactions/glucagon,baqsimi-index.html"
+76,Basaglar,"https://www.drugs.com/drug-interactions/insulin-glargine,basaglar-index.html"
+77,Bavencio,"https://www.drugs.com/drug-interactions/avelumab,bavencio-index.html"
+78,Belbuca,"https://www.drugs.com/drug-interactions/buprenorphine,belbuca-index.html"
+79,Belsomra,"https://www.drugs.com/drug-interactions/suvorexant,belsomra-index.html"
+80,Benadryl,"https://www.drugs.com/drug-interactions/diphenhydramine,benadryl-index.html"
+81,Benazepril,https://www.drugs.com/drug-interactions/benazepril-index.html
+82,Bendeka,"https://www.drugs.com/drug-interactions/bendamustine,bendeka-index.html"
+83,Benicar,"https://www.drugs.com/drug-interactions/olmesartan,benicar-index.html"
+84,Benlysta,"https://www.drugs.com/drug-interactions/belimumab,benlysta-index.html"
+85,Bentyl,"https://www.drugs.com/drug-interactions/dicyclomine,bentyl-index.html"
+86,Benzonatate,https://www.drugs.com/drug-interactions/benzonatate.html
+87,Benztropine,https://www.drugs.com/drug-interactions/benztropine-index.html
+88,Berinert,"https://www.drugs.com/drug-interactions/c1-esterase-inhibitor-human,berinert-index.html"
+89,Berotralstat,https://www.drugs.com/drug-interactions/berotralstat-index.html
+90,Betadine,"https://www.drugs.com/drug-interactions/povidone-iodine-topical,betadine.html"
+91,Betamethasone Topical,https://www.drugs.com/drug-interactions/betamethasone-topical-index.html
+92,Betaseron,"https://www.drugs.com/drug-interactions/interferon-beta-1b,betaseron-index.html"
+93,Bevacizumab,https://www.drugs.com/drug-interactions/bevacizumab-index.html
+94,Beyfortus,"https://www.drugs.com/drug-interactions/nirsevimab,beyfortus.html"
+95,Bicalutamide,https://www.drugs.com/drug-interactions/bicalutamide-index.html
+96,Biktarvy,"https://www.drugs.com/drug-interactions/bictegravir-emtricitabine-tenofovir-alafenamide,biktarvy-index.html"
+97,Bismuth subsalicylate,https://www.drugs.com/drug-interactions/bismuth-subsalicylate-index.html
+98,Bisoprolol,https://www.drugs.com/drug-interactions/bisoprolol-index.html
+99,Blincyto,"https://www.drugs.com/drug-interactions/blinatumomab,blincyto-index.html"
+100,Boniva,"https://www.drugs.com/drug-interactions/ibandronate,boniva-index.html"
+102,Breo Ellipta,"https://www.drugs.com/drug-interactions/fluticasone-vilanterol,breo-ellipta-index.html"
+104,Breyanzi,"https://www.drugs.com/drug-interactions/lisocabtagene-maraleucel,breyanzi-index.html"
+105,Breztri,"https://www.drugs.com/drug-interactions/budesonide-formoterol-glycopyrrolate,breztri-aerosphere-index.html"
+106,Brilinta,"https://www.drugs.com/drug-interactions/ticagrelor,brilinta-index.html"
+107,Briumvi,"https://www.drugs.com/drug-interactions/ublituximab,briumvi-index.html"
+108,Briviact,"https://www.drugs.com/drug-interactions/brivaracetam,briviact-index.html"
+109,Brukinsa,"https://www.drugs.com/drug-interactions/zanubrutinib,brukinsa-index.html"
+110,Bryhali,"https://www.drugs.com/drug-interactions/halobetasol-topical,bryhali-index.html"
+111,Budesonide (oral),https://www.drugs.com/drug-interactions/budesonide-index.html
+113,"Budesonide, glycopyrrolate, and formoterol inhaler",https://www.drugs.com/drug-interactions/budesonide-formoterol-glycopyrrolate-index.html
+114,Bunavail,"https://www.drugs.com/drug-interactions/buprenorphine-naloxone,bunavail-index.html"
+115,Buprenex Injection,"https://www.drugs.com/drug-interactions/buprenorphine,buprenex-index.html"
+116,Buprenorphine,https://www.drugs.com/drug-interactions/buprenorphine-index.html
+118,Bupropion,https://www.drugs.com/drug-interactions/bupropion-index.html
+119,BuSpar,"https://www.drugs.com/drug-interactions/buspirone,buspar-index.html"
+120,Buspirone,https://www.drugs.com/drug-interactions/buspirone-index.html
+121,Bystolic,"https://www.drugs.com/drug-interactions/nebivolol,bystolic-index.html"
+122,Cabenuva,"https://www.drugs.com/drug-interactions/cabotegravir-rilpivirine,cabenuva-index.html"
+123,Cabometyx,"https://www.drugs.com/drug-interactions/cabozantinib,cabometyx-index.html"
+124,Calcitriol,https://www.drugs.com/drug-interactions/calcitriol-index.html
+125,Calcium carbonate,https://www.drugs.com/drug-interactions/calcium-carbonate-index.html
+126,Calquence,"https://www.drugs.com/drug-interactions/acalabrutinib,calquence-index.html"
+127,Camzyos,"https://www.drugs.com/drug-interactions/mavacamten,camzyos-index.html"
+128,Candesartan,https://www.drugs.com/drug-interactions/candesartan-index.html
+129,Caplyta,"https://www.drugs.com/drug-interactions/lumateperone,caplyta-index.html"
+130,Captopril,https://www.drugs.com/drug-interactions/captopril-index.html
+131,Carbamazepine,https://www.drugs.com/drug-interactions/carbamazepine-index.html
+132,Carbidopa and levodopa,https://www.drugs.com/drug-interactions/carbidopa-levodopa-index.html
+133,Carvedilol,https://www.drugs.com/drug-interactions/carvedilol-index.html
+134,Carvykti,"https://www.drugs.com/drug-interactions/ciltacabtagene-autoleucel,carvykti.html"
+135,Casodex,"https://www.drugs.com/drug-interactions/bicalutamide,casodex-index.html"
+136,Cefdinir,https://www.drugs.com/drug-interactions/cefdinir-index.html
+137,Cefixime,https://www.drugs.com/drug-interactions/cefixime-index.html
+138,Celebrex,"https://www.drugs.com/drug-interactions/celecoxib,celebrex-index.html"
+139,Celecoxib,https://www.drugs.com/drug-interactions/celecoxib-index.html
+140,Celexa,"https://www.drugs.com/drug-interactions/citalopram,celexa-index.html"
+141,Cephalexin,https://www.drugs.com/drug-interactions/cephalexin-index.html
+142,Cequa Eye Drops,"https://www.drugs.com/drug-interactions/cyclosporine-ophthalmic,cequa.html"
+143,Cetirizine,https://www.drugs.com/drug-interactions/cetirizine-index.html
+144,Chlorpheniramine,https://www.drugs.com/drug-interactions/chlorpheniramine-index.html
+145,Chlorthalidone,https://www.drugs.com/drug-interactions/chlorthalidone-index.html
+146,Cholecalciferol,https://www.drugs.com/drug-interactions/cholecalciferol-index.html
+147,Cialis,"https://www.drugs.com/drug-interactions/tadalafil,cialis-index.html"
+148,Cimzia,"https://www.drugs.com/drug-interactions/certolizumab,cimzia-index.html"
+149,Cinryze,"https://www.drugs.com/drug-interactions/c1-esterase-inhibitor-human,cinryze-index.html"
+150,Cipro,"https://www.drugs.com/drug-interactions/ciprofloxacin,cipro-index.html"
+151,Ciprofloxacin,https://www.drugs.com/drug-interactions/ciprofloxacin-index.html
+152,Citalopram,https://www.drugs.com/drug-interactions/citalopram-index.html
+153,Claritin,"https://www.drugs.com/drug-interactions/loratadine,claritin-index.html"
+154,Clindamycin,https://www.drugs.com/drug-interactions/clindamycin-index.html
+155,Clobetasol,https://www.drugs.com/drug-interactions/clobetasol-topical-index.html
+156,Clobex,"https://www.drugs.com/drug-interactions/clobetasol-topical,clobex-index.html"
+157,Clodan,"https://www.drugs.com/drug-interactions/clobetasol-topical,clodan-index.html"
+158,Clonazepam,https://www.drugs.com/drug-interactions/clonazepam-index.html
+159,Clonidine,https://www.drugs.com/drug-interactions/clonidine-index.html
+160,Clopidogrel,https://www.drugs.com/drug-interactions/clopidogrel-index.html
+161,Clotrimazole,https://www.drugs.com/drug-interactions/clotrimazole-index.html
+162,Clozapine,https://www.drugs.com/drug-interactions/clozapine-index.html
+163,Cobenfy,"https://www.drugs.com/drug-interactions/trospium-xanomeline,cobenfy-index.html"
+164,Codeine,https://www.drugs.com/drug-interactions/codeine-index.html
+165,Colace,"https://www.drugs.com/drug-interactions/docusate,colace.html"
+166,Colazal,"https://www.drugs.com/drug-interactions/balsalazide,colazal-index.html"
+168,Concerta,"https://www.drugs.com/drug-interactions/methylphenidate,concerta-index.html"
+169,Coreg,"https://www.drugs.com/drug-interactions/carvedilol,coreg-index.html"
+170,Cosentyx,"https://www.drugs.com/drug-interactions/secukinumab,cosentyx-index.html"
+171,Coumadin,"https://www.drugs.com/drug-interactions/warfarin,coumadin-index.html"
+172,Crestor,"https://www.drugs.com/drug-interactions/rosuvastatin,crestor-index.html"
+173,Cyclobenzaprine,https://www.drugs.com/drug-interactions/cyclobenzaprine-index.html
+174,Cymbalta,"https://www.drugs.com/drug-interactions/duloxetine,cymbalta-index.html"
+175,Dabigatran,https://www.drugs.com/drug-interactions/dabigatran-index.html
+176,Darzalex,"https://www.drugs.com/drug-interactions/daratumumab,darzalex-index.html"
+177,Dayvigo,"https://www.drugs.com/drug-interactions/lemborexant,dayvigo-index.html"
+178,Decadron,"https://www.drugs.com/drug-interactions/dexamethasone,decadron-index.html"
+179,Degarelix,https://www.drugs.com/drug-interactions/degarelix-index.html
+180,Depakote,"https://www.drugs.com/drug-interactions/divalproex-sodium,depakote-index.html"
+181,Descovy,"https://www.drugs.com/drug-interactions/emtricitabine-tenofovir-alafenamide,descovy-index.html"
+182,Desloratadine,https://www.drugs.com/drug-interactions/desloratadine.html
+183,Desvenlafaxine,https://www.drugs.com/drug-interactions/desvenlafaxine-index.html
+184,Desyrel,"https://www.drugs.com/drug-interactions/trazodone,desyrel-index.html"
+185,Dexamethasone,https://www.drugs.com/drug-interactions/dexamethasone-index.html
+186,Dexilant,"https://www.drugs.com/drug-interactions/dexlansoprazole,dexilant-index.html"
+187,Dextroamphetamine,https://www.drugs.com/drug-interactions/dextroamphetamine-index.html
+188,Dextromethorphan,https://www.drugs.com/drug-interactions/dextromethorphan-index.html
+189,Diacomit,"https://www.drugs.com/drug-interactions/stiripentol,diacomit-index.html"
+190,Diastat AcuDial,"https://www.drugs.com/drug-interactions/diazepam,diastat-acudial-index.html"
+191,Diazepam,https://www.drugs.com/drug-interactions/diazepam-index.html
+192,Diclofenac,https://www.drugs.com/drug-interactions/diclofenac-index.html
+193,Dicyclomine,https://www.drugs.com/drug-interactions/dicyclomine-index.html
+194,Diflucan,"https://www.drugs.com/drug-interactions/fluconazole,diflucan-index.html"
+195,Digoxin,https://www.drugs.com/drug-interactions/digoxin-index.html
+196,Dilantin,"https://www.drugs.com/drug-interactions/phenytoin,dilantin-index.html"
+197,Dilaudid,"https://www.drugs.com/drug-interactions/hydromorphone,dilaudid-index.html"
+198,Diltiazem,https://www.drugs.com/drug-interactions/diltiazem-index.html
+199,Diovan,"https://www.drugs.com/drug-interactions/valsartan,diovan-index.html"
+200,Dipentum,"https://www.drugs.com/drug-interactions/olsalazine,dipentum-index.html"
+201,Diphenhydramine,https://www.drugs.com/drug-interactions/diphenhydramine-index.html
+202,Diprolene,"https://www.drugs.com/drug-interactions/betamethasone-topical,diprolene-index.html"
+203,Divalproex sodium,https://www.drugs.com/drug-interactions/divalproex-sodium-index.html
+205,Donepezil,https://www.drugs.com/drug-interactions/donepezil-index.html
+206,Dopamine Injection,https://www.drugs.com/drug-interactions/dopamine-index.html
+207,Dorzolamide ophthalmic,https://www.drugs.com/drug-interactions/dorzolamide-ophthalmic.html
+208,Doxazosin,https://www.drugs.com/drug-interactions/doxazosin-index.html
+209,Doxycycline,https://www.drugs.com/drug-interactions/doxycycline-index.html
+210,Doxylamine,https://www.drugs.com/drug-interactions/doxylamine-index.html
+211,Dramamine,"https://www.drugs.com/drug-interactions/dimenhydrinate,dramamine-index.html"
+212,Dulcolax Laxative,"https://www.drugs.com/drug-interactions/bisacodyl,dulcolax-index.html"
+213,Duloxetine,https://www.drugs.com/drug-interactions/duloxetine-index.html
+214,Duopa,"https://www.drugs.com/drug-interactions/carbidopa-levodopa,duopa-index.html"
+215,Dupixent,"https://www.drugs.com/drug-interactions/dupilumab,dupixent-index.html"
+216,Dutasteride,https://www.drugs.com/drug-interactions/dutasteride-index.html
+217,Ebglyss,"https://www.drugs.com/drug-interactions/lebrikizumab,ebglyss.html"
+218,Ecotrin,"https://www.drugs.com/drug-interactions/aspirin,ecotrin-index.html"
+219,Effexor,"https://www.drugs.com/drug-interactions/venlafaxine,effexor-xr-index.html"
+220,Elagolix,https://www.drugs.com/drug-interactions/elagolix-index.html
+221,Elavil,"https://www.drugs.com/drug-interactions/amitriptyline,elavil-index.html"
+222,Elevidys,"https://www.drugs.com/drug-interactions/delandistrogene-moxeparvovec,elevidys-index.html"
+223,Eligard,"https://www.drugs.com/drug-interactions/leuprolide,eligard-index.html"
+224,Eliquis,"https://www.drugs.com/drug-interactions/apixaban,eliquis-index.html"
+225,Emgality,"https://www.drugs.com/drug-interactions/galcanezumab,emgality.html"
+226,Empagliflozin,https://www.drugs.com/drug-interactions/empagliflozin-index.html
+227,Empaveli,"https://www.drugs.com/drug-interactions/pegcetacoplan,empaveli-index.html"
+228,Enalapril,https://www.drugs.com/drug-interactions/enalapril-index.html
+229,Enbrel,"https://www.drugs.com/drug-interactions/etanercept,enbrel-index.html"
+230,Enhertu,"https://www.drugs.com/drug-interactions/fam-trastuzumab-deruxtecan,enhertu-index.html"
+231,Enoxaparin,https://www.drugs.com/drug-interactions/enoxaparin-index.html
+232,Enspryng,"https://www.drugs.com/drug-interactions/satralizumab,enspryng-index.html"
+233,Entecavir,https://www.drugs.com/drug-interactions/entecavir-index.html
+234,Entresto,"https://www.drugs.com/drug-interactions/sacubitril-valsartan,entresto-index.html"
+235,Entyvio,"https://www.drugs.com/drug-interactions/vedolizumab,entyvio-index.html"
+236,Enzalutamide,https://www.drugs.com/drug-interactions/enzalutamide-index.html
+237,Epclusa,"https://www.drugs.com/drug-interactions/sofosbuvir-velpatasvir,epclusa-index.html"
+238,Epidiolex,"https://www.drugs.com/drug-interactions/cannabidiol,epidiolex-index.html"
+239,EpiPen,"https://www.drugs.com/drug-interactions/epinephrine,epipen-index.html"
+240,Eplerenone,https://www.drugs.com/drug-interactions/eplerenone-index.html
+241,Ergocalciferol,https://www.drugs.com/drug-interactions/ergocalciferol-index.html
+242,Erleada,"https://www.drugs.com/drug-interactions/apalutamide,erleada-index.html"
+243,Ertapenem,https://www.drugs.com/drug-interactions/ertapenem-index.html
+244,Erythromycin,https://www.drugs.com/drug-interactions/erythromycin-index.html
+245,Escitalopram,https://www.drugs.com/drug-interactions/escitalopram-index.html
+246,Esomeprazole,https://www.drugs.com/drug-interactions/esomeprazole-index.html
+247,Estrace,"https://www.drugs.com/drug-interactions/estradiol,estrace-index.html"
+248,Estradiol,https://www.drugs.com/drug-interactions/estradiol-index.html
+249,Eszopiclone,https://www.drugs.com/drug-interactions/eszopiclone-index.html
+250,Ethambutol,https://www.drugs.com/drug-interactions/ethambutol-index.html
+251,Etodolac,https://www.drugs.com/drug-interactions/etodolac-index.html
+253,Euthyrox,"https://www.drugs.com/drug-interactions/levothyroxine,euthyrox-index.html"
+254,Evenity,"https://www.drugs.com/drug-interactions/romosozumab,evenity-index.html"
+255,Evista,"https://www.drugs.com/drug-interactions/raloxifene,evista-index.html"
+256,Evkeeza,"https://www.drugs.com/drug-interactions/evinacumab,evkeeza.html"
+257,Evolocumab,https://www.drugs.com/drug-interactions/evolocumab.html
+258,Excedrin,"https://www.drugs.com/drug-interactions/acetaminophen-aspirin-caffeine,excedrin-index.html"
+259,Excedrin Migraine,"https://www.drugs.com/drug-interactions/acetaminophen-aspirin-caffeine,excedrin-migraine-index.html"
+260,Exemestane,https://www.drugs.com/drug-interactions/exemestane-index.html
+261,Extavia,"https://www.drugs.com/drug-interactions/interferon-beta-1b,extavia-index.html"
+262,Eylea,"https://www.drugs.com/drug-interactions/aflibercept-ophthalmic,eylea.html"
+263,Ezetimibe,https://www.drugs.com/drug-interactions/ezetimibe-index.html
+265,Farxiga,"https://www.drugs.com/drug-interactions/dapagliflozin,farxiga-index.html"
+266,Fasenra,"https://www.drugs.com/drug-interactions/benralizumab,fasenra.html"
+267,Faslodex,"https://www.drugs.com/drug-interactions/fulvestrant,faslodex.html"
+268,Febuxostat,https://www.drugs.com/drug-interactions/febuxostat-index.html
+269,Felodipine,https://www.drugs.com/drug-interactions/felodipine-index.html
+270,Femara,"https://www.drugs.com/drug-interactions/letrozole,femara-index.html"
+271,Fenofibrate,https://www.drugs.com/drug-interactions/fenofibrate-index.html
+272,Fentanyl,https://www.drugs.com/drug-interactions/fentanyl-index.html
+273,FeroSul,"https://www.drugs.com/drug-interactions/ferrous-sulfate,ferosul-index.html"
+274,Ferrous fumarate,https://www.drugs.com/drug-interactions/ferrous-fumarate-index.html
+275,Ferrous gluconate,https://www.drugs.com/drug-interactions/ferrous-gluconate-index.html
+276,Ferrous sulfate,https://www.drugs.com/drug-interactions/ferrous-sulfate-index.html
+277,Fexofenadine,https://www.drugs.com/drug-interactions/fexofenadine-index.html
+278,Finasteride,https://www.drugs.com/drug-interactions/finasteride.html
+279,Finerenone,https://www.drugs.com/drug-interactions/finerenone-index.html
+280,Fintepla,"https://www.drugs.com/drug-interactions/fenfluramine,fintepla-index.html"
+281,Fioricet,"https://www.drugs.com/drug-interactions/acetaminophen-butalbital-caffeine,fioricet-index.html"
+282,Firazyr,"https://www.drugs.com/drug-interactions/icatibant,firazyr.html"
+283,Firmagon,"https://www.drugs.com/drug-interactions/degarelix,firmagon-index.html"
+284,Fish Oil,"https://www.drugs.com/drug-interactions/omega-3-polyunsaturated-fatty-acids,fish-oil-index.html"
+285,Flagyl,"https://www.drugs.com/drug-interactions/metronidazole,flagyl-index.html"
+286,Flecainide,https://www.drugs.com/drug-interactions/flecainide-index.html
+287,Flexeril,"https://www.drugs.com/drug-interactions/cyclobenzaprine,flexeril-index.html"
+288,Flomax,"https://www.drugs.com/drug-interactions/tamsulosin,flomax-index.html"
+289,Flonase Nasal Spray,"https://www.drugs.com/drug-interactions/fluticasone-nasal,flonase-index.html"
+290,Florastor,"https://www.drugs.com/drug-interactions/saccharomyces-boulardii-lyo,florastor-index.html"
+291,Flovent,"https://www.drugs.com/drug-interactions/fluticasone,flovent-index.html"
+292,Fluconazole,https://www.drugs.com/drug-interactions/fluconazole-index.html
+293,Fludrocortisone,https://www.drugs.com/drug-interactions/fludrocortisone-index.html
+294,FluMist,"https://www.drugs.com/drug-interactions/influenza-virus-vaccine-live,flumist-index.html"
+295,Fluocinonide,https://www.drugs.com/drug-interactions/fluocinonide-topical-index.html
+296,Fluoxetine,https://www.drugs.com/drug-interactions/fluoxetine-index.html
+297,Fluphenazine,https://www.drugs.com/drug-interactions/fluphenazine-index.html
+299,Fluticasone and salmeterol,https://www.drugs.com/drug-interactions/fluticasone-salmeterol-index.html
+300,Fluticasone nasal,https://www.drugs.com/drug-interactions/fluticasone-nasal-index.html
+301,Fluvoxamine,https://www.drugs.com/drug-interactions/fluvoxamine-index.html
+302,Focalin,"https://www.drugs.com/drug-interactions/dexmethylphenidate,focalin-index.html"
+303,Folic acid,https://www.drugs.com/drug-interactions/folic-acid-index.html
+305,Forteo,"https://www.drugs.com/drug-interactions/teriparatide,forteo.html"
+306,Fosamax,"https://www.drugs.com/drug-interactions/alendronate,fosamax-index.html"
+307,Fosfomycin,https://www.drugs.com/drug-interactions/fosfomycin.html
+308,Fulvestrant,https://www.drugs.com/drug-interactions/fulvestrant.html
+309,Furosemide,https://www.drugs.com/drug-interactions/furosemide-index.html
+310,Fycompa,"https://www.drugs.com/drug-interactions/perampanel,fycompa-index.html"
+311,Gabapentin,https://www.drugs.com/drug-interactions/gabapentin-index.html
+313,Gabarone,"https://www.drugs.com/drug-interactions/gabapentin,gabarone-index.html"
+314,Galantamine,https://www.drugs.com/drug-interactions/galantamine-index.html
+315,Gardasil 9,"https://www.drugs.com/drug-interactions/human-papillomavirus-vaccine,gardasil-9-index.html"
+316,Garlic,https://www.drugs.com/drug-interactions/garlic-index.html
+317,Gattex,"https://www.drugs.com/drug-interactions/teduglutide,gattex.html"
+318,Gaviscon,"https://www.drugs.com/drug-interactions/aluminum-hydroxide-magnesium-trisilicate,gaviscon-regular-strength-tablets-index.html"
+319,Gavreto,"https://www.drugs.com/drug-interactions/pralsetinib,gavreto-index.html"
+321,Gemcitabine,https://www.drugs.com/drug-interactions/gemcitabine-index.html
+322,Gemfibrozil,https://www.drugs.com/drug-interactions/gemfibrozil-index.html
+323,Gemtesa,"https://www.drugs.com/drug-interactions/vibegron,gemtesa-index.html"
+324,Genotropin,"https://www.drugs.com/drug-interactions/somatropin,genotropin-index.html"
+325,Gentamicin,https://www.drugs.com/drug-interactions/gentamicin-index.html
+326,Gentamicin ophthalmic,https://www.drugs.com/drug-interactions/gentamicin-ophthalmic.html
+327,Gentamicin topical,https://www.drugs.com/drug-interactions/gentamicin-topical.html
+328,Genvoya,"https://www.drugs.com/drug-interactions/cobicistat-elvitegravir-emtricitabine-tenofovir-alafenamide,genvoya-index.html"
+329,Geodon,"https://www.drugs.com/drug-interactions/ziprasidone,geodon-index.html"
+330,Giazo,"https://www.drugs.com/drug-interactions/balsalazide,giazo-index.html"
+331,Ginger,https://www.drugs.com/drug-interactions/ginger-index.html
+332,Ginkgo Biloba,"https://www.drugs.com/drug-interactions/ginkgo,ginkgo-biloba-index.html"
+333,Gleevec,"https://www.drugs.com/drug-interactions/imatinib,gleevec-index.html"
+334,Glimepiride,https://www.drugs.com/drug-interactions/glimepiride-index.html
+335,Glipizide,https://www.drugs.com/drug-interactions/glipizide-index.html
+336,Glipizide and metformin,https://www.drugs.com/drug-interactions/glipizide-metformin-index.html
+337,Glucagon,https://www.drugs.com/drug-interactions/glucagon-index.html
+338,Glucophage,"https://www.drugs.com/drug-interactions/metformin,glucophage-index.html"
+339,Glucosamine,https://www.drugs.com/drug-interactions/glucosamine.html
+340,Glucotrol,"https://www.drugs.com/drug-interactions/glipizide,glucotrol-index.html"
+341,Glyburide,https://www.drugs.com/drug-interactions/glyburide-index.html
+343,GlycoLax,"https://www.drugs.com/drug-interactions/polyethylene-glycol-3350,glycolax-index.html"
+344,Glycopyrrolate,https://www.drugs.com/drug-interactions/glycopyrrolate-index.html
+345,Glyxambi,"https://www.drugs.com/drug-interactions/empagliflozin-linagliptin,glyxambi-index.html"
+346,Gocovri,"https://www.drugs.com/drug-interactions/amantadine,gocovri-index.html"
+347,GoLYTELY,"https://www.drugs.com/drug-interactions/polyethylene-glycol-3350-with-electrolytes,golytely-index.html"
+348,Granisetron,https://www.drugs.com/drug-interactions/granisetron-index.html
+349,Griseofulvin,https://www.drugs.com/drug-interactions/griseofulvin-index.html
+351,Guanfacine,https://www.drugs.com/drug-interactions/guanfacine-index.html
+352,Gvoke,"https://www.drugs.com/drug-interactions/glucagon,gvoke-index.html"
+354,Haegarda,"https://www.drugs.com/drug-interactions/c1-esterase-inhibitor-human,haegarda-index.html"
+355,Halcion,"https://www.drugs.com/drug-interactions/triazolam,halcion-index.html"
+356,Haldol,"https://www.drugs.com/drug-interactions/haloperidol,haldol-index.html"
+358,Halobetasol Topical,https://www.drugs.com/drug-interactions/halobetasol-topical-index.html
+359,Haloperidol,https://www.drugs.com/drug-interactions/haloperidol-index.html
+360,Harvoni,"https://www.drugs.com/drug-interactions/ledipasvir-sofosbuvir,harvoni-index.html"
+361,Heparin Injection,https://www.drugs.com/drug-interactions/heparin-index.html
+362,Herceptin,"https://www.drugs.com/drug-interactions/trastuzumab,herceptin-index.html"
+363,Hibiclens,"https://www.drugs.com/drug-interactions/chlorhexidine-topical,hibiclens.html"
+364,Hiprex,"https://www.drugs.com/drug-interactions/methenamine,hiprex-index.html"
+365,Histrelin (implant),https://www.drugs.com/drug-interactions/histrelin-index.html
+366,Hizentra,"https://www.drugs.com/drug-interactions/immune-globulin-subcutaneous,hizentra.html"
+367,Humalog,"https://www.drugs.com/drug-interactions/insulin-lispro,humalog-index.html"
+368,Humira,"https://www.drugs.com/drug-interactions/adalimumab,humira-index.html"
+369,Humulin N,"https://www.drugs.com/drug-interactions/insulin-isophane,humulin-n-index.html"
+370,Humulin R,"https://www.drugs.com/drug-interactions/insulin-regular,humulin-r-index.html"
+371,Humulin R (Concentrated) (U-500),"https://www.drugs.com/drug-interactions/insulin-regular,humulin-r-u-500-concentrated-index.html"
+372,Hydralazine,https://www.drugs.com/drug-interactions/hydralazine-index.html
+373,Hydrea,"https://www.drugs.com/drug-interactions/hydroxyurea,hydrea-index.html"
+374,Hydrochlorothiazide,https://www.drugs.com/drug-interactions/hydrochlorothiazide-index.html
+375,Hydrochlorothiazide and lisinopril,https://www.drugs.com/drug-interactions/hydrochlorothiazide-lisinopril-index.html
+376,Hydrochlorothiazide and losartan,https://www.drugs.com/drug-interactions/hydrochlorothiazide-losartan-index.html
+377,Hydrochlorothiazide and olmesartan,https://www.drugs.com/drug-interactions/hydrochlorothiazide-olmesartan-index.html
+378,Hydrochlorothiazide and telmisartan,https://www.drugs.com/drug-interactions/hydrochlorothiazide-telmisartan-index.html
+379,Hydrochlorothiazide and triamterene,https://www.drugs.com/drug-interactions/hydrochlorothiazide-triamterene-index.html
+380,Hydrochlorothiazide and valsartan,https://www.drugs.com/drug-interactions/hydrochlorothiazide-valsartan-index.html
+381,Hydrocodone,https://www.drugs.com/drug-interactions/hydrocodone-index.html
+382,Acetaminophen and Hydrocodone,https://www.drugs.com/drug-interactions/acetaminophen-hydrocodone-index.html
+383,Hydrocortisone,https://www.drugs.com/drug-interactions/hydrocortisone-topical-index.html
+384,Hydromorphone,https://www.drugs.com/drug-interactions/hydromorphone-index.html
+385,Hydroxychloroquine,https://www.drugs.com/drug-interactions/hydroxychloroquine-index.html
+386,Hydroxyurea,https://www.drugs.com/drug-interactions/hydroxyurea-index.html
+387,Hydroxyzine,https://www.drugs.com/drug-interactions/hydroxyzine-index.html
+388,Hyoscyamine,https://www.drugs.com/drug-interactions/hyoscyamine-index.html
+390,Hytrin,"https://www.drugs.com/drug-interactions/terazosin,hytrin-index.html"
+391,Hyzaar,"https://www.drugs.com/drug-interactions/hydrochlorothiazide-losartan,hyzaar-index.html"
+392,Ibrance,"https://www.drugs.com/drug-interactions/palbociclib,ibrance-index.html"
+394,Ibuprofen,https://www.drugs.com/drug-interactions/ibuprofen-index.html
+395,Iclusig,"https://www.drugs.com/drug-interactions/ponatinib,iclusig-index.html"
+396,Icosapent,https://www.drugs.com/drug-interactions/icosapent-index.html
+397,Idhifa,"https://www.drugs.com/drug-interactions/enasidenib,idhifa-index.html"
+398,Ilumya,"https://www.drugs.com/drug-interactions/tildrakizumab,ilumya-index.html"
+399,Imatinib,https://www.drugs.com/drug-interactions/imatinib-index.html
+400,Imbruvica,"https://www.drugs.com/drug-interactions/ibrutinib,imbruvica-index.html"
+401,Imdelltra,"https://www.drugs.com/drug-interactions/tarlatamab,imdelltra-index.html"
+402,Imdur,"https://www.drugs.com/drug-interactions/isosorbide-mononitrate,imdur-index.html"
+403,Imfinzi,"https://www.drugs.com/drug-interactions/durvalumab,imfinzi-index.html"
+404,Imipramine,https://www.drugs.com/drug-interactions/imipramine-index.html
+406,Imitrex,"https://www.drugs.com/drug-interactions/sumatriptan,imitrex-index.html"
+407,Impoyz cream,"https://www.drugs.com/drug-interactions/clobetasol-topical,impoyz-index.html"
+408,Imuran,"https://www.drugs.com/drug-interactions/azathioprine,imuran-index.html"
+409,Inbrija,"https://www.drugs.com/drug-interactions/levodopa,inbrija-index.html"
+410,Incruse Ellipta,"https://www.drugs.com/drug-interactions/umeclidinium,incruse-ellipta-index.html"
+411,Indapamide,https://www.drugs.com/drug-interactions/indapamide-index.html
+412,Inderal,"https://www.drugs.com/drug-interactions/propranolol,inderal-index.html"
+413,Indocin,"https://www.drugs.com/drug-interactions/indomethacin,indocin-index.html"
+414,Indomethacin,https://www.drugs.com/drug-interactions/indomethacin-index.html
+415,Infed,"https://www.drugs.com/drug-interactions/iron-dextran,infed.html"
+416,Infliximab,https://www.drugs.com/drug-interactions/infliximab-index.html
+417,Ingrezza,"https://www.drugs.com/drug-interactions/valbenazine,ingrezza-index.html"
+418,Injectafer,"https://www.drugs.com/drug-interactions/ferric-carboxymaltose,injectafer.html"
+419,Inlyta,"https://www.drugs.com/drug-interactions/axitinib,inlyta-index.html"
+420,Inrebic,"https://www.drugs.com/drug-interactions/fedratinib,inrebic-index.html"
+421,Insulin aspart,https://www.drugs.com/drug-interactions/insulin-aspart-index.html
+422,Insulin degludec,https://www.drugs.com/drug-interactions/insulin-degludec-index.html
+423,Insulin Detemir,https://www.drugs.com/drug-interactions/insulin-detemir-index.html
+424,Insulin glargine,https://www.drugs.com/drug-interactions/insulin-glargine-index.html
+425,Insulin lispro,https://www.drugs.com/drug-interactions/insulin-lispro-index.html
+426,Insulin Regular,https://www.drugs.com/drug-interactions/insulin-regular-index.html
+427,Intuniv,"https://www.drugs.com/drug-interactions/guanfacine,intuniv-index.html"
+428,Invega,"https://www.drugs.com/drug-interactions/paliperidone,invega-index.html"
+429,Invega Sustenna,"https://www.drugs.com/drug-interactions/paliperidone,invega-sustenna-index.html"
+430,Invokana,"https://www.drugs.com/drug-interactions/canagliflozin,invokana-index.html"
+431,Iopamidol,https://www.drugs.com/drug-interactions/iopamidol-index.html
+432,Irbesartan,https://www.drugs.com/drug-interactions/irbesartan-index.html
+433,Isoniazid,https://www.drugs.com/drug-interactions/isoniazid-index.html
+434,Isosorbide Mononitrate,https://www.drugs.com/drug-interactions/isosorbide-mononitrate-index.html
+435,Isosorbide dinitrate,https://www.drugs.com/drug-interactions/isosorbide-dinitrate-index.html
+436,Isotretinoin,https://www.drugs.com/drug-interactions/isotretinoin-index.html
+437,Itraconazole,https://www.drugs.com/drug-interactions/itraconazole-index.html
+438,Ivabradine,https://www.drugs.com/drug-interactions/ivabradine-index.html
+439,Ivermectin,https://www.drugs.com/drug-interactions/ivermectin-index.html
+441,Jadenu,"https://www.drugs.com/drug-interactions/deferasirox,jadenu-index.html"
+442,Jakafi,"https://www.drugs.com/drug-interactions/ruxolitinib,jakafi-index.html"
+443,Jalyn,"https://www.drugs.com/drug-interactions/dutasteride-tamsulosin,jalyn-index.html"
+444,Jantoven,"https://www.drugs.com/drug-interactions/warfarin,jantoven-index.html"
+445,Janumet,"https://www.drugs.com/drug-interactions/metformin-sitagliptin,janumet-index.html"
+446,Janumet XR,"https://www.drugs.com/drug-interactions/metformin-sitagliptin,janumet-xr-index.html"
+447,Januvia,"https://www.drugs.com/drug-interactions/sitagliptin,januvia-index.html"
+448,Jardiance,"https://www.drugs.com/drug-interactions/empagliflozin,jardiance-index.html"
+449,Jatenzo,"https://www.drugs.com/drug-interactions/testosterone,jatenzo-index.html"
+450,Jaypirca,"https://www.drugs.com/drug-interactions/pirtobrutinib,jaypirca-index.html"
+451,Jemperli,"https://www.drugs.com/drug-interactions/dostarlimab,jemperli-index.html"
+452,Jentadueto,"https://www.drugs.com/drug-interactions/linagliptin-metformin,jentadueto-index.html"
+453,Jeuveau,"https://www.drugs.com/drug-interactions/prabotulinumtoxina,jeuveau-index.html"
+454,Jevtana,"https://www.drugs.com/drug-interactions/cabazitaxel,jevtana-index.html"
+455,Joenja,"https://www.drugs.com/drug-interactions/leniolisib,joenja.html"
+457,Jornay PM,"https://www.drugs.com/drug-interactions/methylphenidate,jornay-pm-index.html"
+458,Journavx,"https://www.drugs.com/drug-interactions/suzetrigine,journavx-index.html"
+459,Jubbonti,"https://www.drugs.com/drug-interactions/denosumab,jubbonti.html"
+461,Juluca,"https://www.drugs.com/drug-interactions/dolutegravir-rilpivirine,juluca-index.html"
+465,Juvisync,"https://www.drugs.com/drug-interactions/simvastatin-sitagliptin,juvisync-index.html"
+466,Juxtapid,"https://www.drugs.com/drug-interactions/lomitapide,juxtapid-index.html"
+467,Jynarque,"https://www.drugs.com/drug-interactions/tolvaptan,jynarque-index.html"
+468,Jynneos,"https://www.drugs.com/drug-interactions/smallpox-and-mpox-vaccine,jynneos-index.html"
+469,Kadcyla,"https://www.drugs.com/drug-interactions/ado-trastuzumab-emtansine,kadcyla-index.html"
+472,Kaolin,https://www.drugs.com/drug-interactions/kaolin-index.html
+474,Kapvay,"https://www.drugs.com/drug-interactions/clonidine,kapvay-index.html"
+475,Kayexalate,"https://www.drugs.com/drug-interactions/sodium-polystyrene-sulfonate,kayexalate-index.html"
+476,Keflex,"https://www.drugs.com/drug-interactions/cephalexin,keflex-index.html"
+477,Kenalog,"https://www.drugs.com/drug-interactions/triamcinolone-topical,kenalog-index.html"
+478,Kenalog-40,"https://www.drugs.com/drug-interactions/triamcinolone,kenalog-40-index.html"
+479,Keppra,"https://www.drugs.com/drug-interactions/levetiracetam,keppra-index.html"
+481,Kerendia,"https://www.drugs.com/drug-interactions/finerenone,kerendia-index.html"
+482,Kesimpta,"https://www.drugs.com/drug-interactions/ofatumumab,kesimpta-index.html"
+483,Ketalar,"https://www.drugs.com/drug-interactions/ketamine,ketalar-index.html"
+484,Ketamine,https://www.drugs.com/drug-interactions/ketamine-index.html
+485,Ketoconazole,https://www.drugs.com/drug-interactions/ketoconazole-index.html
+487,Ketoprofen,https://www.drugs.com/drug-interactions/ketoprofen-index.html
+488,Ketorolac ophthalmic,https://www.drugs.com/drug-interactions/ketorolac-ophthalmic-index.html
+490,Kevzara,"https://www.drugs.com/drug-interactions/sarilumab,kevzara-index.html"
+491,Keytruda,"https://www.drugs.com/drug-interactions/pembrolizumab,keytruda-index.html"
+492,Kineret,"https://www.drugs.com/drug-interactions/anakinra,kineret-index.html"
+493,Kisqali,"https://www.drugs.com/drug-interactions/ribociclib,kisqali-index.html"
+494,Kisunla,"https://www.drugs.com/drug-interactions/donanemab,kisunla-index.html"
+495,Klonopin,"https://www.drugs.com/drug-interactions/clonazepam,klonopin-index.html"
+496,Klor-Con,"https://www.drugs.com/drug-interactions/potassium-chloride,klor-con-index.html"
+497,Koselugo,"https://www.drugs.com/drug-interactions/selumetinib,koselugo-index.html"
+498,Krazati,"https://www.drugs.com/drug-interactions/adagrasib,krazati-index.html"
+500,Kyleena,"https://www.drugs.com/drug-interactions/levonorgestrel,kyleena-index.html"
+501,Kytril,"https://www.drugs.com/drug-interactions/granisetron,kytril-index.html"
+502,Kyzatrex,"https://www.drugs.com/drug-interactions/testosterone,kyzatrex-index.html"
+503,Labetalol,https://www.drugs.com/drug-interactions/labetalol-index.html
+504,Lactulose,https://www.drugs.com/drug-interactions/lactulose-index.html
+505,Lamictal,"https://www.drugs.com/drug-interactions/lamotrigine,lamictal-index.html"
+506,Lamotrigine,https://www.drugs.com/drug-interactions/lamotrigine-index.html
+507,Lanadelumab,https://www.drugs.com/drug-interactions/lanadelumab.html
+508,Lansoprazole,https://www.drugs.com/drug-interactions/lansoprazole-index.html
+509,Lantus,"https://www.drugs.com/drug-interactions/insulin-glargine,lantus-index.html"
+510,Lasix,"https://www.drugs.com/drug-interactions/furosemide,lasix-index.html"
+512,Latuda,"https://www.drugs.com/drug-interactions/lurasidone,latuda-index.html"
+513,Leflunomide,https://www.drugs.com/drug-interactions/leflunomide-index.html
+514,Lenvatinib,https://www.drugs.com/drug-interactions/lenvatinib-index.html
+515,Lenvima,"https://www.drugs.com/drug-interactions/lenvatinib,lenvima-index.html"
+516,Leqembi,"https://www.drugs.com/drug-interactions/lecanemab,leqembi-index.html"
+517,Letrozole,https://www.drugs.com/drug-interactions/letrozole-index.html
+518,Leukeran,"https://www.drugs.com/drug-interactions/chlorambucil,leukeran-index.html"
+519,Leuprolide,https://www.drugs.com/drug-interactions/leuprolide-index.html
+520,Levaquin,"https://www.drugs.com/drug-interactions/levofloxacin,levaquin-index.html"
+521,Levemir,"https://www.drugs.com/drug-interactions/insulin-detemir,levemir-index.html"
+522,Levocetirizine,https://www.drugs.com/drug-interactions/levocetirizine-index.html
+523,Levodopa inhalation,https://www.drugs.com/drug-interactions/levodopa-index.html
+524,Levofloxacin,https://www.drugs.com/drug-interactions/levofloxacin-index.html
+525,Levothyroxine,https://www.drugs.com/drug-interactions/levothyroxine-index.html
+526,Lexapro,"https://www.drugs.com/drug-interactions/escitalopram,lexapro-index.html"
+527,Lexette foam,"https://www.drugs.com/drug-interactions/halobetasol-topical,lexette-index.html"
+528,Lialda,"https://www.drugs.com/drug-interactions/mesalamine,lialda-index.html"
+530,Liletta,"https://www.drugs.com/drug-interactions/levonorgestrel,liletta-index.html"
+531,Linzess,"https://www.drugs.com/drug-interactions/linaclotide,linzess-index.html"
+532,Liothyronine,https://www.drugs.com/drug-interactions/liothyronine-index.html
+533,Lipitor,"https://www.drugs.com/drug-interactions/atorvastatin,lipitor-index.html"
+534,Liraglutide,https://www.drugs.com/drug-interactions/liraglutide-index.html
+535,Lisdexamfetamine,https://www.drugs.com/drug-interactions/lisdexamfetamine-index.html
+536,Lisinopril,https://www.drugs.com/drug-interactions/lisinopril-index.html
+537,Lithium,https://www.drugs.com/drug-interactions/lithium-index.html
+538,Lo Loestrin FE,"https://www.drugs.com/drug-interactions/ethinyl-estradiol-norethindrone,lo-loestrin-fe-index.html"
+539,Lofexidine,https://www.drugs.com/drug-interactions/lofexidine-index.html
+540,Lokelma,"https://www.drugs.com/drug-interactions/sodium-zirconium-cyclosilicate,lokelma.html"
+541,Lomotil,"https://www.drugs.com/drug-interactions/atropine-diphenoxylate,lomotil-index.html"
+542,Loperamide,https://www.drugs.com/drug-interactions/loperamide-index.html
+543,Loqtorzi,"https://www.drugs.com/drug-interactions/toripalimab,loqtorzi.html"
+544,Loratadine,https://www.drugs.com/drug-interactions/loratadine-index.html
+545,Lorazepam,https://www.drugs.com/drug-interactions/lorazepam-index.html
+546,Lorlatinib,https://www.drugs.com/drug-interactions/lorlatinib-index.html
+547,Losartan,https://www.drugs.com/drug-interactions/losartan-index.html
+548,Lovastatin,https://www.drugs.com/drug-interactions/lovastatin-index.html
+549,Lovenox,"https://www.drugs.com/drug-interactions/enoxaparin,lovenox-index.html"
+550,Lunesta,"https://www.drugs.com/drug-interactions/eszopiclone,lunesta-index.html"
+551,Lupron Depot,"https://www.drugs.com/drug-interactions/leuprolide,lupron-depot-index.html"
+552,Lurasidone,https://www.drugs.com/drug-interactions/lurasidone-index.html
+553,Lutathera,"https://www.drugs.com/drug-interactions/lutetium-lu-177-dotatate,lutathera-index.html"
+554,Luxiq,"https://www.drugs.com/drug-interactions/betamethasone-topical,luxiq-index.html"
+555,Lybalvi,"https://www.drugs.com/drug-interactions/olanzapine-samidorphan,lybalvi-index.html"
+556,Lyrica,"https://www.drugs.com/drug-interactions/pregabalin,lyrica-index.html"
+557,Lyumjev,"https://www.drugs.com/drug-interactions/insulin-lispro,lyumjev-index.html"
+558,Macrobid,"https://www.drugs.com/drug-interactions/nitrofurantoin,macrobid-index.html"
+559,Magnesium citrate,https://www.drugs.com/drug-interactions/magnesium-citrate-index.html
+560,Magnesium oxide,https://www.drugs.com/drug-interactions/magnesium-oxide-index.html
+561,Mavenclad,"https://www.drugs.com/drug-interactions/cladribine,mavenclad-index.html"
+562,Mavorixafor,https://www.drugs.com/drug-interactions/mavorixafor.html
+563,Mavyret,"https://www.drugs.com/drug-interactions/glecaprevir-pibrentasvir,mavyret-index.html"
+564,Mayzent,"https://www.drugs.com/drug-interactions/siponimod,mayzent-index.html"
+565,Meclizine,https://www.drugs.com/drug-interactions/meclizine-index.html
+566,Medrol,"https://www.drugs.com/drug-interactions/methylprednisolone,medrol-index.html"
+567,Mefenamic acid,https://www.drugs.com/drug-interactions/mefenamic-acid-index.html
+568,Meloxicam,https://www.drugs.com/drug-interactions/meloxicam-index.html
+569,Memantine,https://www.drugs.com/drug-interactions/memantine-index.html
+570,Meropenem,https://www.drugs.com/drug-interactions/meropenem-index.html
+571,Mesalamine,https://www.drugs.com/drug-interactions/mesalamine-index.html
+572,Metformin,https://www.drugs.com/drug-interactions/metformin-index.html
+573,Methadone,https://www.drugs.com/drug-interactions/methadone-index.html
+574,Methimazole,https://www.drugs.com/drug-interactions/methimazole-index.html
+575,Methocarbamol,https://www.drugs.com/drug-interactions/methocarbamol-index.html
+576,Methotrexate,https://www.drugs.com/drug-interactions/methotrexate-index.html
+577,Methylphenidate,https://www.drugs.com/drug-interactions/methylphenidate-index.html
+578,Methylprednisolone,https://www.drugs.com/drug-interactions/methylprednisolone-index.html
+579,Metoclopramide,https://www.drugs.com/drug-interactions/metoclopramide-index.html
+580,Metoprolol,https://www.drugs.com/drug-interactions/metoprolol-index.html
+581,Metronidazole,https://www.drugs.com/drug-interactions/metronidazole-index.html
+582,Midazolam,https://www.drugs.com/drug-interactions/midazolam-index.html
+583,Midodrine,https://www.drugs.com/drug-interactions/midodrine-index.html
+584,Minoxidil,https://www.drugs.com/drug-interactions/minoxidil-topical-index.html
+585,Mirabegron,https://www.drugs.com/drug-interactions/mirabegron-index.html
+586,MiraLAX,"https://www.drugs.com/drug-interactions/polyethylene-glycol-3350,miralax-index.html"
+587,Mirtazapine,https://www.drugs.com/drug-interactions/mirtazapine-index.html
+588,Mobic,"https://www.drugs.com/drug-interactions/meloxicam,mobic-index.html"
+589,Modafinil,https://www.drugs.com/drug-interactions/modafinil-index.html
+590,Montelukast,https://www.drugs.com/drug-interactions/montelukast-index.html
+591,Morphine,https://www.drugs.com/drug-interactions/morphine-index.html
+596,Myfembree,"https://www.drugs.com/drug-interactions/estradiol-norethindrone-relugolix,myfembree-index.html"
+597,Mylotarg,"https://www.drugs.com/drug-interactions/gemtuzumab,mylotarg-index.html"
+598,Myrbetriq,"https://www.drugs.com/drug-interactions/mirabegron,myrbetriq-index.html"
+599,Nabumetone,https://www.drugs.com/drug-interactions/nabumetone-index.html
+600,NAC,"https://www.drugs.com/drug-interactions/acetylcysteine,nac.html"
+601,Nadolol,https://www.drugs.com/drug-interactions/nadolol-index.html
+602,Naloxone,https://www.drugs.com/drug-interactions/naloxone.html
+603,Naltrexone,https://www.drugs.com/drug-interactions/naltrexone-index.html
+604,Namenda,"https://www.drugs.com/drug-interactions/memantine,namenda-index.html"
+605,Naprosyn,"https://www.drugs.com/drug-interactions/naproxen,naprosyn-index.html"
+606,Naproxen,https://www.drugs.com/drug-interactions/naproxen-index.html
+607,Narcan,"https://www.drugs.com/drug-interactions/naloxone,narcan.html"
+608,Nayzilam Nasal Spray,"https://www.drugs.com/drug-interactions/midazolam,nayzilam-index.html"
+609,Nebivolol,https://www.drugs.com/drug-interactions/nebivolol-index.html
+610,neffy,"https://www.drugs.com/drug-interactions/epinephrine,neffy-index.html"
+611,Neomycin,https://www.drugs.com/drug-interactions/neomycin-index.html
+613,Nerlynx,"https://www.drugs.com/drug-interactions/neratinib,nerlynx-index.html"
+614,Neupro Skin Patches,"https://www.drugs.com/drug-interactions/rotigotine,neupro-index.html"
+615,Neurontin,"https://www.drugs.com/drug-interactions/gabapentin,neurontin-index.html"
+616,Nexium,"https://www.drugs.com/drug-interactions/esomeprazole,nexium-index.html"
+617,Nexletol,"https://www.drugs.com/drug-interactions/bempedoic-acid,nexletol-index.html"
+619,Nexplanon,"https://www.drugs.com/drug-interactions/etonogestrel,nexplanon-index.html"
+620,Ngenla,"https://www.drugs.com/drug-interactions/somatrogon,ngenla-index.html"
+621,Niacin,https://www.drugs.com/drug-interactions/niacin-index.html
+622,Nifedipine,https://www.drugs.com/drug-interactions/nifedipine-index.html
+623,Nilandron,"https://www.drugs.com/drug-interactions/nilutamide,nilandron-index.html"
+624,Nilutamide,https://www.drugs.com/drug-interactions/nilutamide-index.html
+625,Ninlaro,"https://www.drugs.com/drug-interactions/ixazomib,ninlaro-index.html"
+626,Nitazoxanide,https://www.drugs.com/drug-interactions/nitazoxanide.html
+627,Nitrofurantoin,https://www.drugs.com/drug-interactions/nitrofurantoin-index.html
+628,Nitrostat,"https://www.drugs.com/drug-interactions/nitroglycerin,nitrostat-index.html"
+629,Nivolumab,https://www.drugs.com/drug-interactions/nivolumab-index.html
+630,Norco,"https://www.drugs.com/drug-interactions/acetaminophen-hydrocodone,norco-index.html"
+631,Norepinephrine,https://www.drugs.com/drug-interactions/norepinephrine-index.html
+632,Norethindrone,https://www.drugs.com/drug-interactions/norethindrone-index.html
+633,Norflex,"https://www.drugs.com/drug-interactions/orphenadrine,norflex-index.html"
+634,Nortriptyline,https://www.drugs.com/drug-interactions/nortriptyline-index.html
+635,Norvasc,"https://www.drugs.com/drug-interactions/amlodipine,norvasc-index.html"
+636,Nourianz,"https://www.drugs.com/drug-interactions/istradefylline,nourianz-index.html"
+637,NovoLog,"https://www.drugs.com/drug-interactions/insulin-aspart,novolog-index.html"
+638,NP Thyroid,"https://www.drugs.com/drug-interactions/thyroid-desiccated,np-thyroid-index.html"
+639,Nplate,"https://www.drugs.com/drug-interactions/romiplostim,nplate.html"
+640,Nubeqa,"https://www.drugs.com/drug-interactions/darolutamide,nubeqa-index.html"
+641,Nucala,"https://www.drugs.com/drug-interactions/mepolizumab,nucala.html"
+642,Nurtec ODT,"https://www.drugs.com/drug-interactions/rimegepant,nurtec-odt-index.html"
+643,NuvaRing,"https://www.drugs.com/drug-interactions/ethinyl-estradiol-etonogestrel,nuvaring-index.html"
+644,Nuvigil,"https://www.drugs.com/drug-interactions/armodafinil,nuvigil-index.html"
+645,Nystatin,https://www.drugs.com/drug-interactions/nystatin.html
+647,Ocrelizumab,https://www.drugs.com/drug-interactions/ocrelizumab-index.html
+648,Ocrevus,"https://www.drugs.com/drug-interactions/ocrelizumab,ocrevus-index.html"
+649,Ofev,"https://www.drugs.com/drug-interactions/nintedanib,ofev-index.html"
+650,Ofloxacin,https://www.drugs.com/drug-interactions/ofloxacin-index.html
+653,Ojjaara,"https://www.drugs.com/drug-interactions/momelotinib,ojjaara-index.html"
+654,Olanzapine,https://www.drugs.com/drug-interactions/olanzapine-index.html
+655,Olaparib,https://www.drugs.com/drug-interactions/olaparib-index.html
+656,Olmesartan,https://www.drugs.com/drug-interactions/olmesartan-index.html
+658,Olux,"https://www.drugs.com/drug-interactions/clobetasol-topical,olux-index.html"
+659,Omalizumab,https://www.drugs.com/drug-interactions/omalizumab-index.html
+660,Omega-3,"https://www.drugs.com/drug-interactions/omega-3-polyunsaturated-fatty-acids,omega-3-index.html"
+661,Omega-3 Fish Oil,"https://www.drugs.com/drug-interactions/omega-3-polyunsaturated-fatty-acids,omega-3-fish-oil-index.html"
+662,Omeprazole,https://www.drugs.com/drug-interactions/omeprazole-index.html
+663,Omnicef,"https://www.drugs.com/drug-interactions/cefdinir,omnicef-index.html"
+664,Omvoh,"https://www.drugs.com/drug-interactions/mirikizumab,omvoh-index.html"
+665,Ondansetron,https://www.drugs.com/drug-interactions/ondansetron-index.html
+666,Onfi,"https://www.drugs.com/drug-interactions/clobazam,onfi-index.html"
+667,Ongentys,"https://www.drugs.com/drug-interactions/opicapone,ongentys-index.html"
+668,Onureg,"https://www.drugs.com/drug-interactions/azacitidine,onureg-index.html"
+669,Opcon-A,"https://www.drugs.com/drug-interactions/naphazoline-pheniramine-ophthalmic,opcon-a-index.html"
+670,Opdivo,"https://www.drugs.com/drug-interactions/nivolumab,opdivo-index.html"
+671,Opill,"https://www.drugs.com/drug-interactions/norgestrel,opill-index.html"
+672,Opzelura,"https://www.drugs.com/drug-interactions/ruxolitinib-topical,opzelura-index.html"
+673,Orencia,"https://www.drugs.com/drug-interactions/abatacept,orencia-index.html"
+674,Orgovyx,"https://www.drugs.com/drug-interactions/relugolix,orgovyx-index.html"
+675,Oriahnn,"https://www.drugs.com/drug-interactions/elagolix-estradiol-norethindrone,oriahnn-index.html"
+676,Orladeyo,"https://www.drugs.com/drug-interactions/berotralstat,orladeyo-index.html"
+677,Orlistat,https://www.drugs.com/drug-interactions/orlistat-index.html
+678,Orphenadrine,https://www.drugs.com/drug-interactions/orphenadrine-index.html
+679,Oseltamivir,https://www.drugs.com/drug-interactions/oseltamivir.html
+680,Osimertinib,https://www.drugs.com/drug-interactions/osimertinib-index.html
+681,Otezla,"https://www.drugs.com/drug-interactions/apremilast,otezla-index.html"
+682,Oxazepam,https://www.drugs.com/drug-interactions/oxazepam-index.html
+683,Oxcarbazepine,https://www.drugs.com/drug-interactions/oxcarbazepine-index.html
+684,Oxtellar XR,"https://www.drugs.com/drug-interactions/oxcarbazepine,oxtellar-xr-index.html"
+685,Oxybutynin,https://www.drugs.com/drug-interactions/oxybutynin-index.html
+686,Oxycodone,https://www.drugs.com/drug-interactions/oxycodone-index.html
+687,OxyContin,"https://www.drugs.com/drug-interactions/oxycodone,oxycontin-index.html"
+688,Oxymetazoline nasal,https://www.drugs.com/drug-interactions/oxymetazoline-nasal-index.html
+689,Oxytocin,https://www.drugs.com/drug-interactions/oxytocin-index.html
+690,Ozanimod,https://www.drugs.com/drug-interactions/ozanimod-index.html
+691,Ozempic,"https://www.drugs.com/drug-interactions/semaglutide,ozempic-index.html"
+692,Pantoprazole,https://www.drugs.com/drug-interactions/pantoprazole-index.html
+693,Paracetamol,"https://www.drugs.com/drug-interactions/acetaminophen,paracetamol-index.html"
+694,Paroxetine,https://www.drugs.com/drug-interactions/paroxetine-index.html
+695,Paxil,"https://www.drugs.com/drug-interactions/paroxetine,paxil-index.html"
+696,Paxlovid,"https://www.drugs.com/drug-interactions/nirmatrelvir-ritonavir,paxlovid-index.html"
+697,Pegcetacoplan eye injections,https://www.drugs.com/drug-interactions/pegcetacoplan-ophthalmic.html
+698,Pentasa,"https://www.drugs.com/drug-interactions/mesalamine,pentasa-index.html"
+699,Pepcid,"https://www.drugs.com/drug-interactions/famotidine,pepcid-index.html"
+700,Percocet,"https://www.drugs.com/drug-interactions/acetaminophen-oxycodone,percocet-index.html"
+701,Perindopril,https://www.drugs.com/drug-interactions/perindopril-index.html
+702,Phenazopyridine,https://www.drugs.com/drug-interactions/phenazopyridine-index.html
+703,Phenergan,"https://www.drugs.com/drug-interactions/promethazine,phenergan-index.html"
+704,Phenobarbital,https://www.drugs.com/drug-interactions/phenobarbital-index.html
+705,Phentermine,https://www.drugs.com/drug-interactions/phentermine-index.html
+706,Phenylephrine,https://www.drugs.com/drug-interactions/phenylephrine-index.html
+707,Phenytoin,https://www.drugs.com/drug-interactions/phenytoin-index.html
+708,Phexxi,"https://www.drugs.com/drug-interactions/citric-acid-lactic-acid-potassium-bitartrate-topical,phexxi.html"
+709,Pioglitazone,https://www.drugs.com/drug-interactions/pioglitazone-index.html
+710,Piperacillin and tazobactam,https://www.drugs.com/drug-interactions/piperacillin-tazobactam-index.html
+711,Plan B,"https://www.drugs.com/drug-interactions/levonorgestrel,plan-b-one-step-index.html"
+712,Plaquenil,"https://www.drugs.com/drug-interactions/hydroxychloroquine,plaquenil-index.html"
+713,Plavix,"https://www.drugs.com/drug-interactions/clopidogrel,plavix-index.html"
+714,Potassium Chloride,https://www.drugs.com/drug-interactions/potassium-chloride-index.html
+715,Pradaxa,"https://www.drugs.com/drug-interactions/dabigatran,pradaxa-index.html"
+716,Praluent,"https://www.drugs.com/drug-interactions/alirocumab,praluent.html"
+717,Pramipexole,https://www.drugs.com/drug-interactions/pramipexole-index.html
+718,Pravastatin,https://www.drugs.com/drug-interactions/pravastatin-index.html
+719,Prazosin,https://www.drugs.com/drug-interactions/prazosin-index.html
+720,Prednisolone,https://www.drugs.com/drug-interactions/prednisolone-index.html
+721,Prednisone,https://www.drugs.com/drug-interactions/prednisone-index.html
+722,Pregabalin,https://www.drugs.com/drug-interactions/pregabalin-index.html
+723,Premarin,"https://www.drugs.com/drug-interactions/conjugated-estrogens,premarin-index.html"
+724,Prevnar 20,"https://www.drugs.com/drug-interactions/pneumococcal-20-valent-conjugate-vaccine,prevnar-20-index.html"
+725,Prilosec,"https://www.drugs.com/drug-interactions/omeprazole,prilosec-index.html"
+726,Primidone,https://www.drugs.com/drug-interactions/primidone-index.html
+727,Pristiq,"https://www.drugs.com/drug-interactions/desvenlafaxine,pristiq-index.html"
+728,Probuphine Implant,"https://www.drugs.com/drug-interactions/buprenorphine,probuphine-index.html"
+729,Progesterone,https://www.drugs.com/drug-interactions/progesterone-index.html
+730,Promacta,"https://www.drugs.com/drug-interactions/eltrombopag,promacta-index.html"
+731,Promethazine,https://www.drugs.com/drug-interactions/promethazine-index.html
+732,Propranolol,https://www.drugs.com/drug-interactions/propranolol-index.html
+733,Protonix,"https://www.drugs.com/drug-interactions/pantoprazole,protonix-index.html"
+734,Provenge,"https://www.drugs.com/drug-interactions/sipuleucel-t,provenge-index.html"
+735,Provera,"https://www.drugs.com/drug-interactions/medroxyprogesterone,provera-index.html"
+736,Provigil,"https://www.drugs.com/drug-interactions/modafinil,provigil-index.html"
+737,Prozac,"https://www.drugs.com/drug-interactions/fluoxetine,prozac-index.html"
+738,Pseudoephedrine,https://www.drugs.com/drug-interactions/pseudoephedrine-index.html
+739,Pyridium,"https://www.drugs.com/drug-interactions/phenazopyridine,pyridium-index.html"
+741,Qbrelis,"https://www.drugs.com/drug-interactions/lisinopril,qbrelis-index.html"
+743,Qfitlia,"https://www.drugs.com/drug-interactions/fitusiran,qfitlia.html"
+744,Qinlock,"https://www.drugs.com/drug-interactions/ripretinib,qinlock-index.html"
+745,QNASL,"https://www.drugs.com/drug-interactions/beclomethasone-nasal,qnasl.html"
+746,Qsymia,"https://www.drugs.com/drug-interactions/phentermine-topiramate,qsymia-index.html"
+747,Quazepam,https://www.drugs.com/drug-interactions/quazepam-index.html
+749,Questran,"https://www.drugs.com/drug-interactions/cholestyramine,questran-index.html"
+750,Quetiapine,https://www.drugs.com/drug-interactions/quetiapine-index.html
+751,QuilliChew ER,"https://www.drugs.com/drug-interactions/methylphenidate,quillichew-er-index.html"
+752,Quillivant XR,"https://www.drugs.com/drug-interactions/methylphenidate,quillivant-xr-index.html"
+753,Quinapril,https://www.drugs.com/drug-interactions/quinapril-index.html
+754,Quinidine,https://www.drugs.com/drug-interactions/quinidine-index.html
+755,Quinine,https://www.drugs.com/drug-interactions/quinine-index.html
+756,Qulipta,"https://www.drugs.com/drug-interactions/atogepant,qulipta-index.html"
+757,Qutenza,"https://www.drugs.com/drug-interactions/capsaicin-topical,qutenza.html"
+759,Qvar Redihaler,"https://www.drugs.com/drug-interactions/beclomethasone,qvar-redihaler-index.html"
+760,Rabeprazole,https://www.drugs.com/drug-interactions/rabeprazole-index.html
+761,Raloxifene,https://www.drugs.com/drug-interactions/raloxifene-index.html
+762,Ramelteon,https://www.drugs.com/drug-interactions/ramelteon-index.html
+764,Ranexa,"https://www.drugs.com/drug-interactions/ranolazine,ranexa-index.html"
+765,Ranitidine,https://www.drugs.com/drug-interactions/ranitidine-index.html
+766,Ranolazine,https://www.drugs.com/drug-interactions/ranolazine-index.html
+767,Rapamune,"https://www.drugs.com/drug-interactions/sirolimus,rapamune-index.html"
+768,Ravulizumab,https://www.drugs.com/drug-interactions/ravulizumab-index.html
+769,Rebif,"https://www.drugs.com/drug-interactions/interferon-beta-1a,rebif-index.html"
+770,Reclast,"https://www.drugs.com/drug-interactions/zoledronic-acid,reclast-index.html"
+771,Reglan,"https://www.drugs.com/drug-interactions/metoclopramide,reglan-index.html"
+772,Relafen,"https://www.drugs.com/drug-interactions/nabumetone,relafen-index.html"
+773,Relugolix,https://www.drugs.com/drug-interactions/relugolix-index.html
+774,Remeron,"https://www.drugs.com/drug-interactions/mirtazapine,remeron-index.html"
+775,Remicade,"https://www.drugs.com/drug-interactions/infliximab,remicade-index.html"
+776,Repaglinide,https://www.drugs.com/drug-interactions/repaglinide-index.html
+777,Repatha,"https://www.drugs.com/drug-interactions/evolocumab,repatha.html"
+778,Requip,"https://www.drugs.com/drug-interactions/ropinirole,requip-index.html"
+779,Restasis,"https://www.drugs.com/drug-interactions/cyclosporine-ophthalmic,restasis.html"
+780,Restoril,"https://www.drugs.com/drug-interactions/temazepam,restoril-index.html"
+781,Retevmo,"https://www.drugs.com/drug-interactions/selpercatinib,retevmo-index.html"
+782,Revlimid,"https://www.drugs.com/drug-interactions/lenalidomide,revlimid-index.html"
+784,Reyvow,"https://www.drugs.com/drug-interactions/lasmiditan,reyvow-index.html"
+785,Rezdiffra,"https://www.drugs.com/drug-interactions/resmetirom,rezdiffra-index.html"
+786,Rifampin,https://www.drugs.com/drug-interactions/rifampin-index.html
+787,Rifaximin,https://www.drugs.com/drug-interactions/rifaximin-index.html
+788,Rinvoq,"https://www.drugs.com/drug-interactions/upadacitinib,rinvoq-index.html"
+789,Risdiplam,https://www.drugs.com/drug-interactions/risdiplam.html
+790,Risedronate,https://www.drugs.com/drug-interactions/risedronate-index.html
+791,Risperdal,"https://www.drugs.com/drug-interactions/risperidone,risperdal-index.html"
+792,Risperidone,https://www.drugs.com/drug-interactions/risperidone-index.html
+793,Ritalin,"https://www.drugs.com/drug-interactions/methylphenidate,ritalin-index.html"
+794,Rituxan Hycela,"https://www.drugs.com/drug-interactions/hyaluronidase-rituximab,rituxan-hycela-index.html"
+795,Rituximab,https://www.drugs.com/drug-interactions/rituximab-index.html
+796,Rivaroxaban,https://www.drugs.com/drug-interactions/rivaroxaban-index.html
+797,Rivastigmine,https://www.drugs.com/drug-interactions/rivastigmine-index.html
+798,Rizatriptan,https://www.drugs.com/drug-interactions/rizatriptan-index.html
+799,Robaxin,"https://www.drugs.com/drug-interactions/methocarbamol,robaxin-index.html"
+801,Rocephin Injection,"https://www.drugs.com/drug-interactions/ceftriaxone,rocephin-index.html"
+802,Roflumilast Topical,https://www.drugs.com/drug-interactions/roflumilast-topical-index.html
+803,Ropinirole,https://www.drugs.com/drug-interactions/ropinirole-index.html
+804,Rosuvastatin,https://www.drugs.com/drug-interactions/rosuvastatin-index.html
+805,Rowasa,"https://www.drugs.com/drug-interactions/mesalamine,rowasa-index.html"
+806,Roxicodone,"https://www.drugs.com/drug-interactions/oxycodone,roxicodone-index.html"
+807,Rozanolixizumab,https://www.drugs.com/drug-interactions/rozanolixizumab.html
+808,Ruconest,"https://www.drugs.com/drug-interactions/conestat-alfa,ruconest-index.html"
+809,Rybelsus,"https://www.drugs.com/drug-interactions/semaglutide,rybelsus-index.html"
+810,Rybrevant,"https://www.drugs.com/drug-interactions/amivantamab,rybrevant.html"
+811,Rydapt,"https://www.drugs.com/drug-interactions/midostaurin,rydapt-index.html"
+812,Rystiggo,"https://www.drugs.com/drug-interactions/rozanolixizumab,rystiggo-index.html"
+813,Rytary,"https://www.drugs.com/drug-interactions/carbidopa-levodopa,rytary-index.html"
+814,Sabril,"https://www.drugs.com/drug-interactions/vigabatrin,sabril-index.html"
+815,Sacubitril and valsartan,https://www.drugs.com/drug-interactions/sacubitril-valsartan-index.html
+817,Sandostatin,"https://www.drugs.com/drug-interactions/octreotide,sandostatin-index.html"
+818,Saphnelo,"https://www.drugs.com/drug-interactions/anifrolumab,saphnelo-index.html"
+819,Satralizumab,https://www.drugs.com/drug-interactions/satralizumab-index.html
+820,Saw Palmetto,https://www.drugs.com/drug-interactions/saw-palmetto.html
+821,Saxenda,"https://www.drugs.com/drug-interactions/liraglutide,saxenda-index.html"
+823,Selumetinib,https://www.drugs.com/drug-interactions/selumetinib-index.html
+824,Semglee,"https://www.drugs.com/drug-interactions/insulin-glargine,semglee-index.html"
+825,Senna,https://www.drugs.com/drug-interactions/senna-index.html
+826,Sernivo Spray,"https://www.drugs.com/drug-interactions/betamethasone-topical,sernivo-index.html"
+827,Seroquel,"https://www.drugs.com/drug-interactions/quetiapine,seroquel-index.html"
+828,Sertraline,https://www.drugs.com/drug-interactions/sertraline-index.html
+829,Sevelamer,https://www.drugs.com/drug-interactions/sevelamer-index.html
+830,Shingrix Vaccine,"https://www.drugs.com/drug-interactions/zoster-vaccine-recombinant,shingrix-index.html"
+831,Sildenafil,https://www.drugs.com/drug-interactions/sildenafil-index.html
+832,Simponi,"https://www.drugs.com/drug-interactions/golimumab,simponi-index.html"
+833,Simvastatin,https://www.drugs.com/drug-interactions/simvastatin-index.html
+834,Sinemet,"https://www.drugs.com/drug-interactions/carbidopa-levodopa,sinemet-index.html"
+835,Singulair,"https://www.drugs.com/drug-interactions/montelukast,singulair-index.html"
+836,Sitagliptin,https://www.drugs.com/drug-interactions/sitagliptin-index.html
+837,Skyrizi,"https://www.drugs.com/drug-interactions/risankizumab,skyrizi-index.html"
+838,Skytrofa,"https://www.drugs.com/drug-interactions/lonapegsomatropin,skytrofa-index.html"
+839,Slynd,"https://www.drugs.com/drug-interactions/drospirenone,slynd-index.html"
+840,Sodium bicarbonate,https://www.drugs.com/drug-interactions/sodium-bicarbonate-index.html
+841,Sofosbuvir,https://www.drugs.com/drug-interactions/sofosbuvir-index.html
+842,Solifenacin,https://www.drugs.com/drug-interactions/solifenacin-index.html
+843,Soliqua 100/33,"https://www.drugs.com/drug-interactions/insulin-glargine-lixisenatide,soliqua-index.html"
+844,Soliris,"https://www.drugs.com/drug-interactions/eculizumab,soliris-index.html"
+845,Soma,"https://www.drugs.com/drug-interactions/carisoprodol,soma-index.html"
+846,Somatropin,https://www.drugs.com/drug-interactions/somatropin-index.html
+847,Somatuline Depot,"https://www.drugs.com/drug-interactions/lanreotide,somatuline-depot-index.html"
+848,Somavert,"https://www.drugs.com/drug-interactions/pegvisomant,somavert-index.html"
+849,Sotalol,https://www.drugs.com/drug-interactions/sotalol-index.html
+850,Sovaldi,"https://www.drugs.com/drug-interactions/sofosbuvir,sovaldi-index.html"
+851,Spesolimab,https://www.drugs.com/drug-interactions/spesolimab.html
+852,Spevigo,"https://www.drugs.com/drug-interactions/spesolimab,spevigo-index.html"
+853,Spinraza,"https://www.drugs.com/drug-interactions/nusinersen,spinraza.html"
+854,Spiriva,"https://www.drugs.com/drug-interactions/tiotropium,spiriva-index.html"
+855,Spironolactone,https://www.drugs.com/drug-interactions/spironolactone-index.html
+856,Sprycel,"https://www.drugs.com/drug-interactions/dasatinib,sprycel-index.html"
+857,Stelara,"https://www.drugs.com/drug-interactions/ustekinumab,stelara-index.html"
+858,Stiolto Respimat,"https://www.drugs.com/drug-interactions/olodaterol-tiotropium,stiolto-respimat-index.html"
+859,Strattera,"https://www.drugs.com/drug-interactions/atomoxetine,strattera-index.html"
+860,Stribild,"https://www.drugs.com/drug-interactions/cobicistat-elvitegravir-emtricitabine-tenofovir-disoproxil,stribild-index.html"
+861,Sublocade Injection,"https://www.drugs.com/drug-interactions/buprenorphine,sublocade-index.html"
+862,Suboxone,"https://www.drugs.com/drug-interactions/buprenorphine-naloxone,suboxone-index.html"
+863,Sucralfate,https://www.drugs.com/drug-interactions/sucralfate-index.html
+864,Sudafed,"https://www.drugs.com/drug-interactions/pseudoephedrine,sudafed-congestion-index.html"
+865,Sulfamethoxazole and trimethoprim,https://www.drugs.com/drug-interactions/sulfamethoxazole-trimethoprim-index.html
+866,Sulfasalazine,https://www.drugs.com/drug-interactions/sulfasalazine-index.html
+867,Sumatriptan,https://www.drugs.com/drug-interactions/sumatriptan-index.html
+868,Sunlenca,"https://www.drugs.com/drug-interactions/lenacapavir,sunlenca-index.html"
+869,Sunosi,"https://www.drugs.com/drug-interactions/solriamfetol,sunosi-index.html"
+871,Sutent,"https://www.drugs.com/drug-interactions/sunitinib,sutent-index.html"
+872,Syfovre,"https://www.drugs.com/drug-interactions/pegcetacoplan-ophthalmic,syfovre.html"
+873,Symbicort,"https://www.drugs.com/drug-interactions/budesonide-formoterol,symbicort-index.html"
+874,Sympazan,"https://www.drugs.com/drug-interactions/clobazam,sympazan-index.html"
+875,Synjardy,"https://www.drugs.com/drug-interactions/empagliflozin-metformin,synjardy-index.html"
+876,Synthroid,"https://www.drugs.com/drug-interactions/levothyroxine,synthroid-index.html"
+877,Tadalafil,https://www.drugs.com/drug-interactions/tadalafil-index.html
+878,Takhzyro,"https://www.drugs.com/drug-interactions/lanadelumab,takhzyro.html"
+879,Taltz,"https://www.drugs.com/drug-interactions/ixekizumab,taltz-index.html"
+880,Talvey,"https://www.drugs.com/drug-interactions/talquetamab,talvey.html"
+881,Tamiflu,"https://www.drugs.com/drug-interactions/oseltamivir,tamiflu.html"
+882,Tamoxifen,https://www.drugs.com/drug-interactions/tamoxifen-index.html
+883,Tamsulosin,https://www.drugs.com/drug-interactions/tamsulosin-index.html
+884,Tavneos,"https://www.drugs.com/drug-interactions/avacopan,tavneos-index.html"
+885,"Tazarotene Cream, Gel, Lotion, and Foam",https://www.drugs.com/drug-interactions/tazarotene-topical.html
+886,Tazorac,"https://www.drugs.com/drug-interactions/tazarotene-topical,tazorac.html"
+887,Tecartus,"https://www.drugs.com/drug-interactions/brexucabtagene-autoleucel,tecartus.html"
+888,Tecentriq,"https://www.drugs.com/drug-interactions/atezolizumab,tecentriq-index.html"
+889,Tecfidera,"https://www.drugs.com/drug-interactions/dimethyl-fumarate,tecfidera-index.html"
+890,Tecvayli,"https://www.drugs.com/drug-interactions/teclistamab,tecvayli-index.html"
+891,Tegretol,"https://www.drugs.com/drug-interactions/carbamazepine,tegretol-index.html"
+892,Telmisartan,https://www.drugs.com/drug-interactions/telmisartan-index.html
+893,Telotristat ethyl,https://www.drugs.com/drug-interactions/telotristat-index.html
+894,Temazepam,https://www.drugs.com/drug-interactions/temazepam-index.html
+895,Temovate,"https://www.drugs.com/drug-interactions/clobetasol-topical,temovate-index.html"
+896,Tenormin,"https://www.drugs.com/drug-interactions/atenolol,tenormin-index.html"
+897,Tepezza,"https://www.drugs.com/drug-interactions/teprotumumab,tepezza-index.html"
+898,Terazosin,https://www.drugs.com/drug-interactions/terazosin-index.html
+899,Terbinafine,https://www.drugs.com/drug-interactions/terbinafine-index.html
+900,Testosterone Injection,https://www.drugs.com/drug-interactions/testosterone-index.html
+901,Tetracycline,https://www.drugs.com/drug-interactions/tetracycline-index.html
+902,Thiamine,https://www.drugs.com/drug-interactions/thiamine.html
+903,Tibsovo,"https://www.drugs.com/drug-interactions/ivosidenib,tibsovo-index.html"
+904,Ticagrelor,https://www.drugs.com/drug-interactions/ticagrelor-index.html
+905,Timolol,https://www.drugs.com/drug-interactions/timolol-index.html
+906,Tirzepatide,https://www.drugs.com/drug-interactions/tirzepatide-index.html
+907,Tizanidine,https://www.drugs.com/drug-interactions/tizanidine-index.html
+908,Tolterodine,https://www.drugs.com/drug-interactions/tolterodine-index.html
+909,Topamax,"https://www.drugs.com/drug-interactions/topiramate,topamax-index.html"
+910,Topiramate,https://www.drugs.com/drug-interactions/topiramate-index.html
+911,Toprol-XL,"https://www.drugs.com/drug-interactions/metoprolol,toprol-xl-index.html"
+912,Toradol,"https://www.drugs.com/drug-interactions/ketorolac,toradol-index.html"
+913,Torsemide,https://www.drugs.com/drug-interactions/torsemide-index.html
+914,Toujeo SoloStar,"https://www.drugs.com/drug-interactions/insulin-glargine,toujeo-solostar-index.html"
+915,Tradjenta,"https://www.drugs.com/drug-interactions/linagliptin,tradjenta-index.html"
+916,Tramadol,https://www.drugs.com/drug-interactions/tramadol-index.html
+917,Tranexamic acid,https://www.drugs.com/drug-interactions/tranexamic-acid-index.html
+918,Trastuzumab deruxtecan,https://www.drugs.com/drug-interactions/fam-trastuzumab-deruxtecan-index.html
+919,Trazodone,https://www.drugs.com/drug-interactions/trazodone-index.html
+920,Treanda,"https://www.drugs.com/drug-interactions/bendamustine,treanda-index.html"
+921,Trelegy Ellipta,"https://www.drugs.com/drug-interactions/fluticasone-umeclidinium-vilanterol,trelegy-ellipta-index.html"
+922,Trelstar,"https://www.drugs.com/drug-interactions/triptorelin,trelstar-index.html"
+923,Tremfya,"https://www.drugs.com/drug-interactions/guselkumab,tremfya-index.html"
+924,Tretinoin Topical,https://www.drugs.com/drug-interactions/tretinoin-topical.html
+925,Triamcinolone,https://www.drugs.com/drug-interactions/triamcinolone-index.html
+926,Triamterene,https://www.drugs.com/drug-interactions/triamterene-index.html
+927,Trileptal,"https://www.drugs.com/drug-interactions/oxcarbazepine,trileptal-index.html"
+928,Trimethoprim,https://www.drugs.com/drug-interactions/trimethoprim-index.html
+929,Trintellix,"https://www.drugs.com/drug-interactions/vortioxetine,trintellix-index.html"
+930,Triptorelin,https://www.drugs.com/drug-interactions/triptorelin-index.html
+931,Triumeq,"https://www.drugs.com/drug-interactions/abacavir-dolutegravir-lamivudine,triumeq-index.html"
+932,Trodelvy,"https://www.drugs.com/drug-interactions/sacituzumab-govitecan,trodelvy-index.html"
+933,Trokendi XR,"https://www.drugs.com/drug-interactions/topiramate,trokendi-xr-index.html"
+934,Truqap,"https://www.drugs.com/drug-interactions/capivasertib,truqap-index.html"
+935,Truxima,"https://www.drugs.com/drug-interactions/rituximab,truxima-index.html"
+937,Twirla Patch,"https://www.drugs.com/drug-interactions/ethinyl-estradiol-levonorgestrel,twirla-index.html"
+938,Tylenol,"https://www.drugs.com/drug-interactions/acetaminophen,tylenol-index.html"
+939,Tysabri,"https://www.drugs.com/drug-interactions/natalizumab,tysabri-index.html"
+940,Ublituximab,https://www.drugs.com/drug-interactions/ublituximab.html
+941,Uceris Tablets,"https://www.drugs.com/drug-interactions/budesonide,uceris-index.html"
+942,Ulipristal,https://www.drugs.com/drug-interactions/ulipristal-index.html
+943,Uloric,"https://www.drugs.com/drug-interactions/febuxostat,uloric-index.html"
+944,Ultiva,"https://www.drugs.com/drug-interactions/remifentanil,ultiva-index.html"
+945,Ultomiris,"https://www.drugs.com/drug-interactions/ravulizumab,ultomiris-index.html"
+946,Ultracet,"https://www.drugs.com/drug-interactions/acetaminophen-tramadol,ultracet-index.html"
+947,Ultram,"https://www.drugs.com/drug-interactions/tramadol,ultram-index.html"
+948,Ultram ER,"https://www.drugs.com/drug-interactions/tramadol,ultram-er-index.html"
+949,Ultravate,"https://www.drugs.com/drug-interactions/halobetasol-topical,ultravate-index.html"
+950,Umeclidinium,https://www.drugs.com/drug-interactions/umeclidinium-index.html
+951,Umeclidinium and vilanterol,https://www.drugs.com/drug-interactions/umeclidinium-vilanterol-index.html
+952,Unasyn,"https://www.drugs.com/drug-interactions/ampicillin-sulbactam,unasyn-index.html"
+953,Unisom,"https://www.drugs.com/drug-interactions/doxylamine,unisom-sleeptabs-index.html"
+954,Unisom Sleep Gels,"https://www.drugs.com/drug-interactions/diphenhydramine,unisom-sleepgels-index.html"
+956,Upadacitinib,https://www.drugs.com/drug-interactions/upadacitinib-index.html
+957,Uplizna,"https://www.drugs.com/drug-interactions/inebilizumab,uplizna-index.html"
+958,Upneeq,"https://www.drugs.com/drug-interactions/oxymetazoline-ophthalmic,upneeq-index.html"
+959,Uptravi,"https://www.drugs.com/drug-interactions/selexipag,uptravi-index.html"
+962,Urecholine,"https://www.drugs.com/drug-interactions/bethanechol,urecholine-index.html"
+963,Uribel,"https://www.drugs.com/drug-interactions/hyoscyamine-methenamine-methylene-blue-phenyl-salicylate-sodium-biphosphate,uribel-index.html"
+964,Uricalm,"https://www.drugs.com/drug-interactions/phenazopyridine,uricalm-index.html"
+965,Uridine triacetate,https://www.drugs.com/drug-interactions/uridine.html
+966,Urispas,"https://www.drugs.com/drug-interactions/flavoxate,urispas-index.html"
+967,Uro-MP,"https://www.drugs.com/drug-interactions/hyoscyamine-methenamine-methylene-blue-phenyl-salicylate-sodium-biphosphate,uro-mp-index.html"
+968,Urocit-K,"https://www.drugs.com/drug-interactions/potassium-citrate,urocit-k-index.html"
+969,Urogesic-Blue,"https://www.drugs.com/drug-interactions/hyoscyamine-methenamine-methylene-blue-sodium-biphosphate,urogesic-blue-index.html"
+970,Uroxatral,"https://www.drugs.com/drug-interactions/alfuzosin,uroxatral-index.html"
+972,Ursodiol,https://www.drugs.com/drug-interactions/ursodiol.html
+973,Ustekinumab,https://www.drugs.com/drug-interactions/ustekinumab-index.html
+974,Uzedy,"https://www.drugs.com/drug-interactions/risperidone,uzedy-index.html"
+975,Valacyclovir,https://www.drugs.com/drug-interactions/valacyclovir-index.html
+976,Valium,"https://www.drugs.com/drug-interactions/diazepam,valium-index.html"
+978,Valproic acid,https://www.drugs.com/drug-interactions/valproic-acid-index.html
+979,Valsartan,https://www.drugs.com/drug-interactions/valsartan-index.html
+980,Valtoco,"https://www.drugs.com/drug-interactions/diazepam,valtoco-index.html"
+981,Valtrex,"https://www.drugs.com/drug-interactions/valacyclovir,valtrex-index.html"
+982,Vamorolone,https://www.drugs.com/drug-interactions/vamorolone.html
+983,Vancomycin,https://www.drugs.com/drug-interactions/vancomycin-index.html
+984,Vanos,"https://www.drugs.com/drug-interactions/fluocinonide-topical,vanos-index.html"
+985,Varenicline,https://www.drugs.com/drug-interactions/varenicline-index.html
+986,Vascepa,"https://www.drugs.com/drug-interactions/icosapent,vascepa-index.html"
+987,Velcade,"https://www.drugs.com/drug-interactions/bortezomib,velcade-index.html"
+988,Venclexta,"https://www.drugs.com/drug-interactions/venetoclax,venclexta-index.html"
+989,Venlafaxine,https://www.drugs.com/drug-interactions/venlafaxine-index.html
+990,Venofer Injection,"https://www.drugs.com/drug-interactions/iron-sucrose,venofer.html"
+991,Ventolin HFA,"https://www.drugs.com/drug-interactions/albuterol,ventolin-hfa-index.html"
+992,Veozah,"https://www.drugs.com/drug-interactions/fezolinetant,veozah-index.html"
+993,Verapamil,https://www.drugs.com/drug-interactions/verapamil-index.html
+994,Versed,"https://www.drugs.com/drug-interactions/midazolam,versed-index.html"
+995,Verzenio,"https://www.drugs.com/drug-interactions/abemaciclib,verzenio-index.html"
+996,VESIcare,"https://www.drugs.com/drug-interactions/solifenacin,vesicare-index.html"
+997,Viagra,"https://www.drugs.com/drug-interactions/sildenafil,viagra-index.html"
+998,Vicodin,"https://www.drugs.com/drug-interactions/acetaminophen-hydrocodone,vicodin-index.html"
+999,Victoza,"https://www.drugs.com/drug-interactions/liraglutide,victoza-index.html"
+1000,Viibryd,"https://www.drugs.com/drug-interactions/vilazodone,viibryd-index.html"
+1001,Vilazodone,https://www.drugs.com/drug-interactions/vilazodone-index.html
+1002,Vimpat,"https://www.drugs.com/drug-interactions/lacosamide,vimpat-index.html"
+1003,Vistaril,"https://www.drugs.com/drug-interactions/hydroxyzine,vistaril-index.html"
+1004,Vitamin A,https://www.drugs.com/drug-interactions/vitamin-a.html
+1005,Vitamin B6,"https://www.drugs.com/drug-interactions/pyridoxine,vitamin-b6.html"
+1006,Vitamin C,"https://www.drugs.com/drug-interactions/ascorbic-acid,vitamin-c-index.html"
+1007,Vitamin D3,"https://www.drugs.com/drug-interactions/cholecalciferol,vitamin-d3-index.html"
+1008,Vitamin E,https://www.drugs.com/drug-interactions/vitamin-e-index.html
+1009,Voltaren,"https://www.drugs.com/drug-interactions/diclofenac,voltaren-index.html"
+1010,Vonjo,"https://www.drugs.com/drug-interactions/pacritinib,vonjo-index.html"
+1011,Voquezna,"https://www.drugs.com/drug-interactions/vonoprazan,voquezna-index.html"
+1012,Voranigo,"https://www.drugs.com/drug-interactions/vorasidenib,voranigo.html"
+1013,Vorasidenib,https://www.drugs.com/drug-interactions/vorasidenib-index.html
+1014,Vortioxetine,https://www.drugs.com/drug-interactions/vortioxetine-index.html
+1015,Vosevi,"https://www.drugs.com/drug-interactions/sofosbuvir-velpatasvir-voxilaprevir,vosevi-index.html"
+1016,Votrient,"https://www.drugs.com/drug-interactions/pazopanib,votrient-index.html"
+1017,Voydeya,"https://www.drugs.com/drug-interactions/danicopan,voydeya.html"
+1018,Vraylar,"https://www.drugs.com/drug-interactions/cariprazine,vraylar-index.html"
+1020,Vyndamax,"https://www.drugs.com/drug-interactions/tafamidis,vyndamax-index.html"
+1021,Vyvanse,"https://www.drugs.com/drug-interactions/lisdexamfetamine,vyvanse-index.html"
+1022,Wakix,"https://www.drugs.com/drug-interactions/pitolisant,wakix-index.html"
+1023,Wal-itin,"https://www.drugs.com/drug-interactions/loratadine,wal-itin-index.html"
+1024,Wal-Profen,https://www.drugs.com/drug-interactions/ibuprofen-index.html
+1025,Warfarin,https://www.drugs.com/drug-interactions/warfarin-index.html
+1026,Wart Remover,"https://www.drugs.com/drug-interactions/salicylic-acid-topical,wart-remover.html"
+1027,Wegovy,"https://www.drugs.com/drug-interactions/semaglutide,wegovy-index.html"
+1028,Welchol,"https://www.drugs.com/drug-interactions/colesevelam,welchol-index.html"
+1029,Welireg,"https://www.drugs.com/drug-interactions/belzutifan,welireg-index.html"
+1030,Wellbutrin,"https://www.drugs.com/drug-interactions/bupropion,wellbutrin-index.html"
+1031,Wellbutrin SR,"https://www.drugs.com/drug-interactions/bupropion,wellbutrin-sr-index.html"
+1032,Wellbutrin XL,"https://www.drugs.com/drug-interactions/bupropion,wellbutrin-xl-index.html"
+1033,Wezlana,"https://www.drugs.com/drug-interactions/ustekinumab,wezlana.html"
+1034,Widaplik,"https://www.drugs.com/drug-interactions/amlodipine-indapamide-telmisartan,widaplik.html"
+1035,Wilate,"https://www.drugs.com/drug-interactions/antihemophilic-factor-von-willebrand-factor,wilate.html"
+1037,Winlevi,"https://www.drugs.com/drug-interactions/clascoterone-topical,winlevi.html"
+1038,Winrevair,"https://www.drugs.com/drug-interactions/sotatercept,winrevair.html"
+1039,Wyost,"https://www.drugs.com/drug-interactions/denosumab,wyost-index.html"
+1040,Xadago,"https://www.drugs.com/drug-interactions/safinamide,xadago-index.html"
+1041,Xalatan,"https://www.drugs.com/drug-interactions/latanoprost-ophthalmic,xalatan.html"
+1042,Xalkori,"https://www.drugs.com/drug-interactions/crizotinib,xalkori-index.html"
+1043,Xanax,"https://www.drugs.com/drug-interactions/alprazolam,xanax-index.html"
+1044,Xanax XR,"https://www.drugs.com/drug-interactions/alprazolam,xanax-xr-index.html"
+1045,Xarelto,"https://www.drugs.com/drug-interactions/rivaroxaban,xarelto-index.html"
+1046,Xcopri,"https://www.drugs.com/drug-interactions/cenobamate,xcopri-index.html"
+1047,Xeljanz,"https://www.drugs.com/drug-interactions/tofacitinib,xeljanz-index.html"
+1048,Xeloda,"https://www.drugs.com/drug-interactions/capecitabine,xeloda-index.html"
+1049,Xelpros,"https://www.drugs.com/drug-interactions/latanoprost-ophthalmic,xelpros.html"
+1050,Xelstrym,"https://www.drugs.com/drug-interactions/dextroamphetamine,xelstrym-index.html"
+1051,Xembify,"https://www.drugs.com/drug-interactions/immune-globulin-subcutaneous,xembify.html"
+1052,Xenazine,"https://www.drugs.com/drug-interactions/tetrabenazine,xenazine-index.html"
+1053,Xenical,"https://www.drugs.com/drug-interactions/orlistat,xenical-index.html"
+1054,Xeomin,"https://www.drugs.com/drug-interactions/incobotulinumtoxina,xeomin-index.html"
+1055,Xermelo,"https://www.drugs.com/drug-interactions/telotristat,xermelo-index.html"
+1056,Xgeva,"https://www.drugs.com/drug-interactions/denosumab,xgeva-index.html"
+1058,Xifaxan,"https://www.drugs.com/drug-interactions/rifaximin,xifaxan-index.html"
+1059,Xigduo XR,"https://www.drugs.com/drug-interactions/dapagliflozin-metformin,xigduo-xr-index.html"
+1061,Xofluza,"https://www.drugs.com/drug-interactions/baloxavir-marboxil,xofluza-index.html"
+1062,Xolair,"https://www.drugs.com/drug-interactions/omalizumab,xolair-index.html"
+1063,Xolremdi,"https://www.drugs.com/drug-interactions/mavorixafor,xolremdi.html"
+1064,Xopenex,"https://www.drugs.com/drug-interactions/levalbuterol,xopenex-index.html"
+1065,Xopenex HFA,"https://www.drugs.com/drug-interactions/levalbuterol,xopenex-hfa-index.html"
+1068,Xtandi,"https://www.drugs.com/drug-interactions/enzalutamide,xtandi-index.html"
+1069,Xulane,"https://www.drugs.com/drug-interactions/ethinyl-estradiol-norelgestromin,xulane-index.html"
+1070,Xultophy,"https://www.drugs.com/drug-interactions/insulin-degludec-liraglutide,xultophy-index.html"
+1071,Xylocaine-MPF,"https://www.drugs.com/drug-interactions/lidocaine,xylocaine-mpf-index.html"
+1072,Xyntha,"https://www.drugs.com/drug-interactions/antihemophilic-factor,xyntha.html"
+1073,Xyosted Injection,"https://www.drugs.com/drug-interactions/testosterone,xyosted-index.html"
+1075,Xywav,"https://www.drugs.com/drug-interactions/calcium-oxybate-magnesium-oxybate-potassium-oxybate-sodium-oxybate,xywav-index.html"
+1076,Xyzal,"https://www.drugs.com/drug-interactions/levocetirizine,xyzal-index.html"
+1077,Yasmin,"https://www.drugs.com/drug-interactions/drospirenone-ethinyl-estradiol,yasmin-index.html"
+1078,Yaz,"https://www.drugs.com/drug-interactions/drospirenone-ethinyl-estradiol,yaz-index.html"
+1080,Yellow fever vaccine,https://www.drugs.com/drug-interactions/yellow-fever-vaccine-index.html
+1081,Yervoy,"https://www.drugs.com/drug-interactions/ipilimumab,yervoy-index.html"
+1082,Yescarta,"https://www.drugs.com/drug-interactions/axicabtagene-ciloleucel,yescarta-index.html"
+1083,Yesintek,"https://www.drugs.com/drug-interactions/ustekinumab,yesintek-index.html"
+1085,YF-Vax,"https://www.drugs.com/drug-interactions/yellow-fever-vaccine,yf-vax-index.html"
+1087,Yondelis,"https://www.drugs.com/drug-interactions/trabectedin,yondelis-index.html"
+1088,Yorvipath,"https://www.drugs.com/drug-interactions/palopegteriparatide,yorvipath-index.html"
+1089,Yuflyma,"https://www.drugs.com/drug-interactions/adalimumab,yuflyma-index.html"
+1090,Yupelri Inhalation,"https://www.drugs.com/drug-interactions/revefenacin,yupelri-index.html"
+1091,Yusimry,"https://www.drugs.com/drug-interactions/adalimumab,yusimry-index.html"
+1093,Zaleplon,https://www.drugs.com/drug-interactions/zaleplon-index.html
+1094,Zanaflex,"https://www.drugs.com/drug-interactions/tizanidine,zanaflex-index.html"
+1095,Zantac,"https://www.drugs.com/drug-interactions/ranitidine,zantac-index.html"
+1096,Zebeta,"https://www.drugs.com/drug-interactions/bisoprolol,zebeta-index.html"
+1097,Zegalogue,"https://www.drugs.com/drug-interactions/dasiglucagon,zegalogue.html"
+1098,Zenpep,"https://www.drugs.com/drug-interactions/pancrelipase,zenpep.html"
+1099,Zepbound,"https://www.drugs.com/drug-interactions/tirzepatide,zepbound-index.html"
+1100,Zeposia,"https://www.drugs.com/drug-interactions/ozanimod,zeposia-index.html"
+1101,Zestril,"https://www.drugs.com/drug-interactions/lisinopril,zestril-index.html"
+1102,Zetia,"https://www.drugs.com/drug-interactions/ezetimibe,zetia-index.html"
+1103,Zilbrysq,"https://www.drugs.com/drug-interactions/zilucoplan,zilbrysq-index.html"
+1104,Zileuton,https://www.drugs.com/drug-interactions/zileuton-index.html
+1105,Zinc,"https://www.drugs.com/drug-interactions/zinc-sulfate,zinc-index.html"
+1106,Zinc gluconate,https://www.drugs.com/drug-interactions/zinc-gluconate-index.html
+1108,Zinc sulfate,https://www.drugs.com/drug-interactions/zinc-sulfate-index.html
+1109,Ziprasidone,https://www.drugs.com/drug-interactions/ziprasidone-index.html
+1110,Zithromax,"https://www.drugs.com/drug-interactions/azithromycin,zithromax-index.html"
+1111,Zocor,"https://www.drugs.com/drug-interactions/simvastatin,zocor-index.html"
+1112,Zofran,"https://www.drugs.com/drug-interactions/ondansetron,zofran-index.html"
+1113,Zofran ODT,"https://www.drugs.com/drug-interactions/ondansetron,zofran-odt-index.html"
+1114,Zoladex,"https://www.drugs.com/drug-interactions/goserelin,zoladex-index.html"
+1115,Zoledronic acid,https://www.drugs.com/drug-interactions/zoledronic-acid-index.html
+1116,Zolmitriptan,https://www.drugs.com/drug-interactions/zolmitriptan-index.html
+1117,Zoloft,"https://www.drugs.com/drug-interactions/sertraline,zoloft-index.html"
+1118,Zolpidem,https://www.drugs.com/drug-interactions/zolpidem-index.html
+1119,Zometa,"https://www.drugs.com/drug-interactions/zoledronic-acid,zometa-index.html"
+1120,Zomig,"https://www.drugs.com/drug-interactions/zolmitriptan,zomig-index.html"
+1121,Zonisamide,https://www.drugs.com/drug-interactions/zonisamide-index.html
+1123,Zoryve,"https://www.drugs.com/drug-interactions/roflumilast-topical,zoryve-index.html"
+1124,Zosyn,"https://www.drugs.com/drug-interactions/piperacillin-tazobactam,zosyn-index.html"
+1125,Zovirax,"https://www.drugs.com/drug-interactions/acyclovir,zovirax-index.html"
+1126,Zyban,"https://www.drugs.com/drug-interactions/bupropion,zyban-index.html"
+1127,Zydelig,"https://www.drugs.com/drug-interactions/idelalisib,zydelig-index.html"
+1128,Zykadia,"https://www.drugs.com/drug-interactions/ceritinib,zykadia-index.html"
+1130,Zyprexa,"https://www.drugs.com/drug-interactions/olanzapine,zyprexa-index.html"
+1131,Zyrtec,"https://www.drugs.com/drug-interactions/cetirizine,zyrtec-index.html"
+1132,Zytiga,"https://www.drugs.com/drug-interactions/abiraterone,zytiga-index.html"
+1133,Zyvox,"https://www.drugs.com/drug-interactions/linezolid,zyvox-index.html"
+1134,12 Hour Nasal,"https://www.drugs.com/drug-interactions/oxymetazoline-nasal,12-hour-nasal-index.html"
+1135,12 Hour Nasal Decongestant,"https://www.drugs.com/drug-interactions/oxymetazoline-nasal,12-hour-nasal-decongestant-spray-index.html"
+1136,3M Skin and Nasal Antiseptic,"https://www.drugs.com/drug-interactions/povidone-iodine-topical,3m-skin-and-nasal-antiseptic.html"
+1137,4-Way,"https://www.drugs.com/drug-interactions/phenylephrine-nasal,4-way-fast-acting-nasal-spray-index.html"
+1138,5-HTP,"https://www.drugs.com/drug-interactions/5-hydroxytryptophan,5-htp-index.html"
+1139,5-HTP Mood and Stress,https://www.drugs.com/drug-interactions/5-hydroxytryptophan-index.html
+1140,5-hydroxytryptophan,https://www.drugs.com/drug-interactions/5-hydroxytryptophan-index.html
+1142,8-Mop,"https://www.drugs.com/drug-interactions/methoxsalen,8-mop-index.html"
