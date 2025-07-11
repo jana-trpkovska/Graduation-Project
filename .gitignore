@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyc
+*.pyo
+*.pyd
+
+# Virtualenv / Pipenv
+venv/
+.env
+.env.*
+Pipfile.lock
+
+# IDEs
+.idea/
+
+# OS files
+.DS_Store
+
+# Log files
+*.log
+
+# Any other secrets
+*.pem
+*.key
