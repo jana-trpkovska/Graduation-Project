@@ -7,6 +7,8 @@ from langchain_pinecone import PineconeVectorStore
 from langchain_core.prompts import PromptTemplate
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain.chains.retrieval import create_retrieval_chain
+from langchain.chains.history_aware_retriever import create_history_aware_retriever
+from langchain import hub
 
 load_dotenv()
 
@@ -65,17 +67,27 @@ stuff_chain = create_stuff_documents_chain(
     prompt=prompt
 )
 
+rephrase_prompt = hub.pull("langchain-ai/chat-langchain-rephrase")
 
-def get_retriever_for_question(question: str):
-    if any(keyword in question.lower() for keyword in ["interaction", "interactions", "mix", "mixing", "combining", "combine", "together"]):
-        return vectorstore.as_retriever(search_kwargs={"k": 20, "filter": {"type": "interaction"}})
+def get_history_aware_retriever(question: str):
+    if any(keyword in question.lower() for keyword in ["interaction", "interact", "interactions", "mix", "mixing", "combining", "combine", "together"]):
+        retriever = vectorstore.as_retriever(search_kwargs={"k": 20, "filter": {"type": "interaction"}})
     else:
-        return vectorstore.as_retriever(search_kwargs={"k": 15, "filter": {"type": "drug"}})
+        retriever = vectorstore.as_retriever(search_kwargs={"k": 15, "filter": {"type": "drug"}})
+
+    history_retriever = create_history_aware_retriever(
+        llm=llm,
+        retriever=retriever,
+        prompt=rephrase_prompt
+    )
+    return history_retriever
 
 
 if __name__ == "__main__":
-    print("Med Assistant Chat\n")
+    print("Med Assistant Chat with Memory\n")
     print("Ask your drug-related question. Type 'q' or 'exit' to quit.\n")
+
+    chat_history = []
 
     while True:
         user_question = input("Your question: ").strip()
@@ -84,14 +96,20 @@ if __name__ == "__main__":
             print("Goodbye!")
             break
 
-        retriever = get_retriever_for_question(user_question)
+        history_aware_retriever = get_history_aware_retriever(user_question)
 
         rag_chain = create_retrieval_chain(
-            retriever=retriever,
+            retriever=history_aware_retriever,
             combine_docs_chain=stuff_chain
         )
 
-        result = rag_chain.invoke({"input": user_question})
+        result = rag_chain.invoke({
+            "input": user_question,
+            "chat_history": chat_history
+        })
+
+        chat_history.append({"role": "user", "content": user_question})
+        chat_history.append({"role": "assistant", "content": result["answer"]})
 
         print("\nAnswer:\n")
         print(result["answer"])
