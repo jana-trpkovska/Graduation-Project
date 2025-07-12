@@ -5,7 +5,8 @@ from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain_pinecone import PineconeVectorStore
 
 from langchain_core.prompts import PromptTemplate
-from langchain_core.runnables import RunnablePassthrough
+from langchain.chains.combine_documents import create_stuff_documents_chain
+from langchain.chains.retrieval import create_retrieval_chain
 
 load_dotenv()
 
@@ -23,11 +24,6 @@ vectorstore = PineconeVectorStore(
     index_name=os.environ["INDEX_NAME"],
     embedding=embeddings
 )
-
-
-def format_docs(docs):
-    return "\n\n".join(doc.page_content for doc in docs)
-
 
 prompt_template = """
 You are a helpful assistant providing clear, accurate, and safe drug information.
@@ -54,29 +50,32 @@ and they should consult a healthcare professional for any medical questions.
 Context:
 {context}
 
-Question: {question}
+Question: {input}
 
 Helpful Answer:
 """
 
 prompt = PromptTemplate(
-    input_variables=["context", "question"],
+    input_variables=["context", "input"],
     template=prompt_template
 )
 
-retriever = vectorstore.as_retriever(
-    search_kwargs={"k": 15}
+stuff_chain = create_stuff_documents_chain(
+    llm=llm,
+    prompt=prompt
 )
 
-rag_chain = (
-        {"context": retriever | format_docs, "question": RunnablePassthrough()}
-        | prompt
-        | llm
-)
+
+def get_retriever_for_question(question: str):
+    if any(keyword in question.lower() for keyword in ["interaction", "interactions", "mix", "mixing", "combining", "combine", "together"]):
+        return vectorstore.as_retriever(search_kwargs={"k": 20, "filter": {"type": "interaction"}})
+    else:
+        return vectorstore.as_retriever(search_kwargs={"k": 15, "filter": {"type": "drug"}})
+
 
 if __name__ == "__main__":
     print("Med Assistant Chat\n")
-    print("Ask your drug-related question. Type 'q' or 'exit' or press Ctrl+C to quit.\n")
+    print("Ask your drug-related question. Type 'q' or 'exit' to quit.\n")
 
     while True:
         user_question = input("Your question: ").strip()
@@ -85,8 +84,15 @@ if __name__ == "__main__":
             print("Goodbye!")
             break
 
-        answer = rag_chain.invoke(user_question)
+        retriever = get_retriever_for_question(user_question)
 
-        print("Answer:\n")
-        print(answer.content)
-        print("\n------------------------------------------------------------------------\n")
+        rag_chain = create_retrieval_chain(
+            retriever=retriever,
+            combine_docs_chain=stuff_chain
+        )
+
+        result = rag_chain.invoke({"input": user_question})
+
+        print("\nAnswer:\n")
+        print(result["answer"])
+        print("\n" + "-" * 72 + "\n")
