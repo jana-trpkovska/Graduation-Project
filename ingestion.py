@@ -22,7 +22,7 @@ embeddings = OpenAIEmbeddings(
 
 text_splitter = RecursiveCharacterTextSplitter(
     chunk_size=800,
-    chunk_overlap=50
+    chunk_overlap=200
 )
 
 
