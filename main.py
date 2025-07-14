@@ -1,4 +1,5 @@
 import os
+import re
 from dotenv import load_dotenv
 
 from langchain_openai import OpenAIEmbeddings, ChatOpenAI
@@ -34,8 +35,8 @@ Use ONLY the retrieved context below to answer the user’s question.
 Do NOT make up any information that is not in the context.
 
 If the question is about a drug’s details (such as generic name, class, usage, warnings, or side effects)
-and some of that information is missing from the context, clearly say so —
-for example: “There is no information available about side effects for this drug.”
+and some of that information is missing from the context, clearly say so — for example:
+“There is no information available about side effects for this drug.”
 
 If the question is about drug-to-drug interactions or mixing/combining/taking drugs together,
 and no interactions are found in the context,
@@ -69,11 +70,30 @@ stuff_chain = create_stuff_documents_chain(
 
 rephrase_prompt = hub.pull("langchain-ai/chat-langchain-rephrase")
 
-def get_history_aware_retriever(question: str):
-    if any(keyword in question.lower() for keyword in ["interaction", "interact", "interactions", "mix", "mixing", "combining", "combine", "together"]):
-        retriever = vectorstore.as_retriever(search_kwargs={"k": 20, "filter": {"type": "interaction"}})
+DISCLAIMER_PATTERN = re.compile(
+    r"(Please\s+remember\s+that\s+)?this\s+information\s+does\s+not\s+replace\s+professional\s+medical\s+advice.*?("
+    r"consult.*?questions\.)",
+    re.IGNORECASE | re.DOTALL
+)
+
+
+def get_history_aware_retriever(question: str, normalized_drugs: list):
+    if any(keyword in question.lower() for keyword in
+           ["interaction", "interact", "interactions", "mix", "mixing", "combining", "combine", "combination", "together"]):
+        filters = {
+            "type": "interaction"
+        }
+        if len(normalized_drugs) > 1:
+            filters = {
+                "$or": [
+                    {"drug_name": {"$in": normalized_drugs}},
+                    {"interacts_with_generic_name": {"$in": normalized_drugs}}
+                ],
+                "type": "interaction"
+            }
+        retriever = vectorstore.as_retriever(search_kwargs={"k": 30, "filter": filters})
     else:
-        retriever = vectorstore.as_retriever(search_kwargs={"k": 15, "filter": {"type": "drug"}})
+        retriever = vectorstore.as_retriever(search_kwargs={"k": 25, "filter": {"type": "drug"}})
 
     history_retriever = create_history_aware_retriever(
         llm=llm,
@@ -83,8 +103,62 @@ def get_history_aware_retriever(question: str):
     return history_retriever
 
 
+def run_retrieval_chain(query: str, history: list, normalized_drugs: list):
+    retriever = get_history_aware_retriever(query, normalized_drugs)
+    rag_chain = create_retrieval_chain(
+        retriever=retriever,
+        combine_docs_chain=stuff_chain
+    )
+    result = rag_chain.invoke({
+        "input": query,
+        "chat_history": history
+    })
+    return result["answer"]
+
+
+extract_drugs_prompt = PromptTemplate(
+    input_variables=["input"],
+    template="""
+You are a helpful extraction assistant.
+Extract ONLY the unique drug names mentioned in this question.
+Return them as a PLAIN Python list of strings.
+Do NOT add any additional text or explanation — return JUST the list.
+
+Question: {input}
+
+Drugs list:
+"""
+)
+
+
+def extract_drug_names(question: str) -> list:
+    extraction_prompt = extract_drugs_prompt.format(input=question)
+    response = llm.invoke(extraction_prompt)
+    print("Raw extraction response:", response.content)
+
+    clean_response = re.sub(r"```[a-z]*", "", response.content, flags=re.IGNORECASE).replace("```", "").strip()
+
+    try:
+        extracted_drugs = eval(clean_response)
+        if isinstance(extracted_drugs, list):
+            return list(set([d.strip() for d in extracted_drugs if d.strip()]))
+    except Exception as e:
+        print(f"Error parsing extracted drugs: {e}")
+        return []
+    return []
+
+
+def generate_pairs(meds: list):
+    all_pairs = []
+    n = len(meds)
+    for i in range(n):
+        for j in range(i + 1, n):
+            all_pairs.append((meds[i], meds[j]))
+    return all_pairs
+
+
 if __name__ == "__main__":
-    print("Med Assistant Chat with Memory\n")
+    print("Med Assistant Chat with Memory")
     print("Ask your drug-related question. Type 'q' or 'exit' to quit.\n")
 
     chat_history = []
@@ -96,21 +170,31 @@ if __name__ == "__main__":
             print("Goodbye!")
             break
 
-        history_aware_retriever = get_history_aware_retriever(user_question)
-
-        rag_chain = create_retrieval_chain(
-            retriever=history_aware_retriever,
-            combine_docs_chain=stuff_chain
-        )
-
-        result = rag_chain.invoke({
-            "input": user_question,
-            "chat_history": chat_history
-        })
+        if any(keyword in user_question.lower() for keyword in
+               ["interaction", "interact", "interactions", "mix", "mixing", "combining", "combine", "combination", "together"]):
+            drugs = extract_drug_names(user_question)
+            print(f"Drug names: {drugs}")
+            if len(drugs) > 1:
+                print(f"\nFound drugs: {drugs}")
+                pairs = generate_pairs(drugs)
+                print(f"Checking {len(pairs)} pairs...\n")
+                answers = []
+                for pair in pairs:
+                    pair_query = f"What are the drug-to-drug interactions between {pair[0]} and {pair[1]}?"
+                    pair_answer = run_retrieval_chain(pair_query, chat_history, drugs)
+                    cleaned_answer = DISCLAIMER_PATTERN.sub("", pair_answer).strip()
+                    answers.append(f"**{pair[0]} and {pair[1]}:**\n{cleaned_answer}")
+                final_answer = "\n\n".join(answers)
+                final_answer += ("\n\nPlease remember that this information does not replace professional medical "
+                                 "advice, and you should consult a healthcare professional for any medical questions.")
+            else:
+                final_answer = run_retrieval_chain(user_question, chat_history, drugs)
+        else:
+            final_answer = run_retrieval_chain(user_question, chat_history, [])
 
         chat_history.append({"role": "user", "content": user_question})
-        chat_history.append({"role": "assistant", "content": result["answer"]})
+        chat_history.append({"role": "assistant", "content": final_answer})
 
         print("\nAnswer:\n")
-        print(result["answer"])
+        print(final_answer)
         print("\n" + "-" * 72 + "\n")
