@@ -7,9 +7,9 @@ __pycache__/
 
 # Virtualenv / Pipenv
 venv/
-.env
+backend/.env
 .env.*
-Pipfile.lock
+backend/Pipfile.lock
 
 # IDEs
 .idea/

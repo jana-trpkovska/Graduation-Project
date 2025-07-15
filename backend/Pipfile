@@ -11,6 +11,8 @@ langchain-openai = "*"
 langchainhub = "*"
 langchain-pinecone = "*"
 pandas = "*"
+fastapi = "*"
+uvicorn = "*"
 
 [dev-packages]
 

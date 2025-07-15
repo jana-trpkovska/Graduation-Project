@@ -9,8 +9,8 @@ from langchain_core.documents import Document
 
 load_dotenv()
 
-drugs_data_path = "C:/Users/Jana Trpkovska/Desktop/Graduation-Project/data/csv/drugs_data_final.csv"
-interactions_data_path = "C:/Users/Jana Trpkovska/Desktop/Graduation-Project/data/csv/drug_to_drug_interactions_final.csv"
+drugs_data_path = "/backend/app/data/csv/drugs_data_final.csv"
+interactions_data_path = "/backend/app/data/csv/drug_to_drug_interactions_final.csv"
 
 drugs_df = pd.read_csv(drugs_data_path)
 interactions_df = pd.read_csv(interactions_data_path)
