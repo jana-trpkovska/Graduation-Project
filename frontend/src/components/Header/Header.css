@@ -1,0 +1,71 @@
+.navbar{
+    background-color: #0A2773;
+    height: 10%;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand {
+    font-size: 25px !important;
+    color: white !important;
+}
+
+.navbar-brand:hover {
+    color: #5180F7 !important;
+}
+
+.nav-link{
+    font-size: 20px !important;
+    color: white !important;
+}
+
+.nav-link:hover {
+    color: #5180F7 !important;
+}
+
+.logo{
+    width: 35px;
+    height: 35px;
+    margin: 15px;
+}
+
+.header-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+.header-center {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.login-link {
+    color: white;
+    font-size: 18px;
+    margin-right: 8px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.login-link:hover {
+    color: #5180F7;
+}
+
+.user-icon{
+    width: 40px;
+    height: 40px;
+    margin: 15px;
+}
