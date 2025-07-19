@@ -1,0 +1,149 @@
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.login-card {
+  background: #CDE1FF;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+  padding: 32px 32px 24px 32px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 8px solid #fff;
+}
+
+.login-title {
+  font-weight: bold;
+  color: #061744;
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.login-form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.login-label {
+  font-size: 1.08rem;
+  color: #061744;
+  margin-bottom: 4px;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.login-input {
+  width: 100%;
+  box-sizing: border-box;
+  height: 48px;
+  padding: 12px 40px 12px 12px;
+  border: 2px solid #fff;
+  border-radius: 6px;
+  font-size: 1.13rem;
+  box-shadow: 0 1px 4px rgba(30,41,119,0.06);
+  margin-bottom: 14px;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+.login-input:focus {
+  border: 2px solid #1E2977;
+  outline: none;
+  box-shadow: 0 2px 8px rgba(30,41,119,0.10);
+  background: #fff;
+}
+
+.login-password-wrapper {
+  position: relative;
+  width: 100%;
+  margin-bottom: 14px;
+}
+
+.password-input {
+  margin-bottom: 0;
+}
+
+.login-show-password {
+  position: absolute;
+  top: 50%;
+  right: 12px;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-remember {
+  display: flex;
+  align-items: center;
+  margin-bottom: 18px;
+  margin-top: 2px;
+  color: #061744;
+}
+
+.login-checkbox {
+  width: 20px;
+  height: 20px;
+  accent-color: #1C33D7;
+}
+
+.login-remember-label {
+  font-size: 1rem;
+  color: #23214B;
+  margin-left: 5px;
+}
+
+.login-submit {
+  background: #1E2977;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 14px 0;
+  font-size: 1.15rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 8px;
+  transition: background 0.2s;
+}
+
+.login-submit:hover {
+  background: #23214B;
+}
+
+.login-signup {
+  margin-top: 18px;
+  text-align: center;
+  font-size: 1rem;
+  color: #061744;
+}
+
+.login-signup-link {
+  color: #1C33D7;
+  text-decoration: underline;
+  margin-left: 2px;
+  cursor: pointer;
+}
+
+.login-signup-link:hover {
+  color: #0D0B2D;
+}
+
+.login-eye-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.bot-icon{
+  width: 200px;
+}
