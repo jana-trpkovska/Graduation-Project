@@ -13,6 +13,11 @@ langchain-pinecone = "*"
 pandas = "*"
 fastapi = "*"
 uvicorn = "*"
+sqlalchemy = "*"
+psycopg2-binary = "*"
+passlib = {extras = ["bcrypt"], version = "*"}
+python-jose = "*"
+python-multipart = "*"
 
 [dev-packages]
 
