@@ -75,3 +75,18 @@ def read_users_me(current_user: schemas.User = Depends(auth.get_current_user)):
 def get_popular_drugs(db: Session = Depends(get_db)):
     top_drugs = db.query(Drug).order_by(Drug.popularity.desc()).limit(12).all()
     return [{"id": drug.id, "name": drug.name} for drug in top_drugs]
+
+
+@app.get("/drugs")
+def get_all_drugs(db: Session = Depends(get_db)):
+    drugs = db.query(Drug).all()
+    return [
+        {
+            "id": drug.id,
+            "name": drug.name,
+            "generic_name": drug.generic_name,
+            "drug_class": drug.drug_class
+        }
+        for drug in drugs
+    ]
+

@@ -10,8 +10,20 @@ const getPopularDrugs = async () => {
     }
 };
 
+const getAllDrugs = async () => {
+    try {
+        const response = await axios.get('/drugs');
+        return response.data;
+    } catch (error) {
+        console.error("Error fetching all drugs:", error);
+        throw error;
+    }
+};
+
 const drugService = {
     getPopularDrugs,
+    getAllDrugs,
+
 };
 
 export default drugService;
