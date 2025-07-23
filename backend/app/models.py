@@ -34,5 +34,6 @@ class Drug(Base):
     side_effects = Column(Text)
     drug_class = Column(String)
     generic_name = Column(String)
+    popularity = Column(Integer, default=0)
 
     users = relationship("User", secondary=user_drugs, back_populates="drugs")

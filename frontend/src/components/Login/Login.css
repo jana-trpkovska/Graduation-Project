@@ -95,7 +95,6 @@
 .login-checkbox {
   width: 20px;
   height: 20px;
-  accent-color: #1C33D7;
 }
 
 .login-remember-label {
@@ -145,5 +144,5 @@
 }
 
 .bot-icon{
-  width: 200px;
+  width: 150px;
 }

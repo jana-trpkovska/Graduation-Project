@@ -3,3 +3,9 @@
     background-color: #F7F7F7;
     min-height: 100vh;
 }
+
+main {
+    max-width: 85%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}

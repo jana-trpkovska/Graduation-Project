@@ -23,7 +23,8 @@ def load_drugs_data(file_path: str):
                 warnings=warnings,
                 side_effects=side_effects,
                 drug_class=drug_class,
-                generic_name=generic_name
+                generic_name=generic_name,
+                popularity=0
             )
             drugs.append(drug)
         except Exception as e:
@@ -31,6 +32,9 @@ def load_drugs_data(file_path: str):
 
     db: Session = SessionLocal()
     try:
+        db.query(Drug).delete()
+        db.commit()
+
         db.add_all(drugs)
         db.commit()
         print(f"{len(drugs)} drugs have been successfully imported.")

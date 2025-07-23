@@ -6,6 +6,7 @@ from sqlalchemy.orm import Session
 
 from . import models, schemas, auth
 from .database import get_db
+from .models import Drug
 from .rag_utils import run_rag
 
 app = FastAPI()
@@ -68,3 +69,9 @@ def login(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = Depend
 @app.get("/me", response_model=schemas.User)
 def read_users_me(current_user: schemas.User = Depends(auth.get_current_user)):
     return current_user
+
+
+@app.get("/drugs/popular")
+def get_popular_drugs(db: Session = Depends(get_db)):
+    top_drugs = db.query(Drug).order_by(Drug.popularity.desc()).limit(12).all()
+    return [{"id": drug.id, "name": drug.name} for drug in top_drugs]

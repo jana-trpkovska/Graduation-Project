@@ -1,0 +1,162 @@
+.home-container {
+  min-height: 90vh;
+  padding: 2rem;
+}
+
+.home-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.highlight {
+  color: #FF6A00;
+  font-weight: bold;
+}
+
+.subtitle {
+  color: #061744;
+  font-size: 1.5rem;
+  margin-top: 4px;
+  margin-bottom: 16px;
+}
+
+.features-card {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  background: #EBF3FF;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+  padding: 24px 0;
+  margin: 0 auto 32px auto;
+  max-width: 900px;
+}
+
+.feature-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #b9c5ff;
+  border-radius: 8px;
+  padding: 16px 18px;
+  background: #EBF3FF;
+  transition: box-shadow 0.2s;
+  min-width: 120px;
+  text-decoration: none;
+}
+
+.feature-btn:hover {
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+  border-color: #b9c5ff;
+}
+
+.feature-img {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 10px;
+}
+
+.feature-label {
+  font-size: 1.1rem;
+  color: #061744;
+  margin-top: 4px;
+  text-align: center;
+}
+
+.popular-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 900px;
+  margin: 0 auto 24px auto;
+  padding: 0 8px;
+}
+
+.popular-title {
+  color: #FF6A00;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.view-all {
+  color: #1a0dab;
+  font-size: 1.1rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.popular-drugs-card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 32px;
+  background: #EBF3FF;
+  border-radius: 10px;
+  padding: 16px 18px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+  max-width: 900px;
+  margin: 0 auto 32px auto;
+}
+
+.popular-drug-btn {
+  background: #EBF3FF;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(60, 120, 255, 0.18);
+  border: 2px solid #b9c5ff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 60px;
+  min-width: 180px;
+  transition: box-shadow 0.2s, border-color 0.2s;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.popular-drug-btn:hover {
+  box-shadow: 0 6px 12px rgba(0,0,0,0.3);
+  border-color: #b9c5ff;
+}
+
+.drug-item {
+  display: flex;
+  align-items: center;
+  font-size: 1.1rem;
+  color: #061744;
+  font-weight: 500;
+  padding: 0 18px;
+}
+
+.arrow {
+  color: #061744;
+  font-size: 1.4rem;
+  margin-right: 12px;
+}
+
+@media (max-width: 900px) {
+  .features-card, .popular-section, .popular-drugs-card {
+    max-width: 98vw;
+  }
+  .popular-drugs-card {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding: 16px 4px;
+  }
+}
+
+@media (max-width: 600px) {
+  .features-card {
+    flex-direction: column;
+    gap: 16px;
+    padding: 12px 0;
+  }
+  .popular-drugs-card {
+    grid-template-columns: 1fr;
+    grid-template-rows: none;
+    padding-left: 0;
+  }
+  .drug-item {
+    padding: 0 8px;
+  }
+}

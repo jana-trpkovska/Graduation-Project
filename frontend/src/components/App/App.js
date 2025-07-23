@@ -6,6 +6,7 @@ import MyDrugs from "../MyDrugs/MyDrugs";
 import Login from "../Login/Login";
 import Chatbot from "../Chatbot/Chatbot";
 import Home from "../Home/Home";
+import SignUp from '../SignUp/SignUp'
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
                     <Route path="/my-drugs" element={<MyDrugs />} />
                     <Route path="/login" element={<Login />} />
                     <Route path="/chatbot" element={<Chatbot />} />
+                    <Route path="/sign-up" element={<SignUp />} />
                 </Routes>
             </main>
         </Router>
