@@ -22,14 +22,14 @@
 
 .features-card {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   gap: 32px;
   background: #EBF3FF;
   border-radius: 10px;
   box-shadow: 0 6px 12px rgba(0,0,0,0.3);
   padding: 24px 0;
   margin: 0 auto 32px auto;
-  max-width: 900px;
+  max-width: 1200px;
 }
 
 .feature-btn {
@@ -57,7 +57,7 @@
 }
 
 .feature-label {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   color: #061744;
   margin-top: 4px;
   text-align: center;
@@ -67,9 +67,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 900px;
+  width: 100%;
+  max-width: 1200px;
   margin: 0 auto 24px auto;
-  padding: 0 8px;
 }
 
 .popular-title {
@@ -80,7 +80,7 @@
 
 .view-all {
   color: #1a0dab;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   text-decoration: none;
   font-weight: 500;
 }
@@ -94,7 +94,7 @@
   border-radius: 10px;
   padding: 16px 18px;
   box-shadow: 0 6px 12px rgba(0,0,0,0.3);
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto 32px auto;
 }
 
@@ -122,7 +122,7 @@
 .drug-item {
   display: flex;
   align-items: center;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   color: #061744;
   font-weight: 500;
   padding: 0 18px;
@@ -134,7 +134,7 @@
   margin-right: 12px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 1200px) {
   .features-card, .popular-section, .popular-drugs-card {
     max-width: 98vw;
   }

@@ -1,4 +1,6 @@
-from fastapi import FastAPI, HTTPException, Depends
+from typing import Optional
+
+from fastapi import FastAPI, HTTPException, Depends, Query
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.security import OAuth2PasswordRequestForm
 from pydantic import BaseModel
@@ -78,8 +80,32 @@ def get_popular_drugs(db: Session = Depends(get_db)):
 
 
 @app.get("/drugs")
-def get_all_drugs(db: Session = Depends(get_db)):
-    drugs = db.query(Drug).all()
+def get_all_drugs(
+    db: Session = Depends(get_db),
+    query: Optional[str] = Query(None),
+    letter: Optional[str] = Query(None),
+    drug_class: Optional[str] = Query(None)
+):
+    drugs_query = db.query(Drug)
+
+    if query:
+        query_lower = query.lower()
+        drugs_query = drugs_query.filter(
+            (Drug.name.ilike(f"%{query_lower}%")) |
+            (Drug.generic_name.ilike(f"%{query_lower}%"))
+        )
+
+    if letter:
+        if letter == "0-9":
+            drugs_query = drugs_query.filter(Drug.name.op("~")(r'^[0-9]'))
+        else:
+            drugs_query = drugs_query.filter(Drug.name.ilike(f"{letter}%"))
+
+    if drug_class:
+        drugs_query = drugs_query.filter(Drug.drug_class.ilike(f"%{drug_class}%"))
+
+    drugs = drugs_query.all()
+
     return [
         {
             "id": drug.id,

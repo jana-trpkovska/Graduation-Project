@@ -17,7 +17,7 @@ const Header = () => {
                     </div>
                     <div className="header-center navbar-collapse justify-content-center">
                         <div className="navbar-nav">
-                            <Link className="nav-link me-4" to="/explore-drugs">Explore drugs</Link>
+                            <a className="nav-link me-4" href="/explore-drugs">Explore drugs</a>
                             <Link className="nav-link me-4" to="/chatbot">Chatbot</Link>
                             <Link className="nav-link" to="/my-drugs">My drugs</Link>
                         </div>

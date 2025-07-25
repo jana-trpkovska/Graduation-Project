@@ -5,7 +5,7 @@ import interactions from '../../assets/pills.png';
 import drugs from '../../assets/my_drugs.png';
 import chatbot from '../../assets/chatbot.png';
 import { Link } from "react-router-dom";
-import drugService from "../../repository/Repository";  // Import the drugService
+import drugService from "../../repository/Repository";
 
 const featureButtons = [
     { label: 'Search drugs', img: search, path: '/explore-drugs' },
