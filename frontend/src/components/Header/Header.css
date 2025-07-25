@@ -62,7 +62,7 @@
 .login-link {
     color: white;
     font-size: 18px;
-    margin-right: 8px;
+    margin-right: 50px;
     text-decoration: none;
     font-weight: 500;
 }
@@ -75,4 +75,18 @@
     width: 40px;
     height: 40px;
     margin: 15px;
+}
+
+.logout-link{
+    color: white;
+    font-size: 18px;
+    margin-right: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    background: none;
+    border: none;
+}
+
+.logout-link:hover {
+    color: #5180F7;
 }

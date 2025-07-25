@@ -146,3 +146,7 @@
 .bot-icon{
   width: 150px;
 }
+
+.login-error{
+  color: red;
+}

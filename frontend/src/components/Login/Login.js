@@ -1,22 +1,45 @@
 import React, { useState } from 'react';
 import './Login.css';
-import showIcon from '../../assets/show.png'
-import hideIcon from '../../assets/hide.png'
+import showIcon from '../../assets/show.png';
+import hideIcon from '../../assets/hide.png';
 import bot from "../../assets/medical-robot.png";
-import {Link} from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
+import drugService from '../../repository/Repository';
 
 const Login = () => {
     const [showPassword, setShowPassword] = useState(false);
-    const handleShowPassword = () => setShowPassword((prev) => !prev);
+    const [username, setUsername] = useState('');
+    const [password, setPassword] = useState('');
+    const [error, setError] = useState(null);
+    const navigate = useNavigate();
+
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        setError(null);
+        try {
+            const data = await drugService.login(username, password);
+            localStorage.setItem('token', data.access_token);
+            navigate('/');
+        } catch (err) {
+            setError("Invalid username or password");
+        }
+    };
 
     return (
         <div className="login-page">
             <div className="login-card">
                 <h2 className="login-title">Login</h2>
                 <img src={bot} alt="Bot Logo" className="bot-icon"/>
-                <form className="login-form">
+                <form className="login-form" onSubmit={handleSubmit}>
                     <label htmlFor="username" className="login-label">Username</label>
-                    <input type="text" id="username" className="login-input" placeholder="Enter username" />
+                    <input
+                        type="text"
+                        id="username"
+                        className="login-input"
+                        placeholder="Enter username"
+                        value={username}
+                        onChange={(e) => setUsername(e.target.value)}
+                    />
 
                     <label htmlFor="password" className="login-label">Password</label>
                     <div className="login-password-wrapper">
@@ -25,13 +48,14 @@ const Login = () => {
                             id="password"
                             className="login-input password-input"
                             placeholder="Enter password"
+                            value={password}
+                            onChange={(e) => setPassword(e.target.value)}
                         />
                         <button
                             type="button"
                             className="login-show-password"
-                            onClick={handleShowPassword}
+                            onClick={() => setShowPassword(prev => !prev)}
                             tabIndex={-1}
-                            aria-label={showPassword ? 'Hide password' : 'Show password'}
                         >
                             <img
                                 src={showPassword ? hideIcon : showIcon}
@@ -41,10 +65,7 @@ const Login = () => {
                         </button>
                     </div>
 
-                    <div className="login-remember">
-                        <input type="checkbox" id="remember" className="login-checkbox" />
-                        <label htmlFor="remember" className="login-remember-label">Remember me?</label>
-                    </div>
+                    {error && <div className="login-error">{error}</div>}
 
                     <button type="submit" className="login-submit">Submit</button>
                 </form>
