@@ -7,6 +7,7 @@ import Login from "../Login/Login";
 import Chatbot from "../Chatbot/Chatbot";
 import Home from "../Home/Home";
 import SignUp from '../SignUp/SignUp'
+import DrugDetails from "../DrugDetails/DrugDetails";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
                     <Route path="/login" element={<Login />} />
                     <Route path="/chatbot" element={<Chatbot />} />
                     <Route path="/sign-up" element={<SignUp />} />
+                    <Route path="/drugs/:id" element={<DrugDetails />} />
                 </Routes>
             </main>
         </Router>

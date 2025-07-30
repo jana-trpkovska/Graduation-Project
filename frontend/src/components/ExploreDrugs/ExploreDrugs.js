@@ -3,6 +3,7 @@ import './ExploreDrugs.css';
 import filterIcon from '../../assets/filter.png';
 import searchIcon from '../../assets/search-icon.png';
 import drugService from '../../repository/Repository';
+import { useNavigate } from 'react-router-dom';
 
 const ExploreDrugs = () => {
     const [drugs, setDrugs] = useState([]);
@@ -15,6 +16,7 @@ const ExploreDrugs = () => {
     const [expandFirstLetter, setExpandFirstLetter] = useState(false);
     const [expandDrugClass, setExpandDrugClass] = useState(false);
     const drugsPerPage = 18;
+    const navigate = useNavigate();
 
     const fetchFilteredDrugs = async (newFilters = {}) => {
         const params = {
@@ -33,7 +35,7 @@ const ExploreDrugs = () => {
     };
 
     useEffect(() => {
-        fetchFilteredDrugs(); // Initial fetch with no filters
+        fetchFilteredDrugs();
     }, []);
 
     const handleSearch = () => {
@@ -194,7 +196,12 @@ const ExploreDrugs = () => {
                                     <div className="drug-value">{drug.generic_name}</div>
                                     <div className="drug-label">Drug class:</div>
                                     <div className="drug-value">{drug.drug_class}</div>
-                                    <button className="view-details-btn">View Details</button>
+                                    <button
+                                        className="view-details-btn"
+                                        onClick={() => navigate(`/drugs/${drug.id}`)}
+                                    >
+                                        View Details
+                                    </button>
                                 </div>
                             ))
                         )}

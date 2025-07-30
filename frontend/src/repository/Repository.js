@@ -52,11 +52,22 @@ const login = async (username, password) => {
     }
 };
 
+const getDrugById = async (id) => {
+    try {
+        const response = await axios.get(`/drugs/${id}`);
+        return response.data;
+    } catch (error) {
+        console.error(`Error fetching drug with ID ${id}:`, error);
+        throw error;
+    }
+};
+
 const drugService = {
     getPopularDrugs,
     getAllDrugs,
     signUp,
     login,
+    getDrugById,
 
 };
 

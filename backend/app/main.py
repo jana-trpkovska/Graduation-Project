@@ -1,4 +1,4 @@
-from typing import Optional
+from typing import Optional, List
 
 from fastapi import FastAPI, HTTPException, Depends, Query
 from fastapi.middleware.cors import CORSMiddleware
@@ -73,13 +73,13 @@ def read_users_me(current_user: schemas.User = Depends(auth.get_current_user)):
     return current_user
 
 
-@app.get("/drugs/popular")
+@app.get("/drugs/popular", response_model=List[schemas.Drug])
 def get_popular_drugs(db: Session = Depends(get_db)):
     top_drugs = db.query(Drug).order_by(Drug.popularity.desc()).limit(12).all()
-    return [{"id": drug.id, "name": drug.name} for drug in top_drugs]
+    return top_drugs
 
 
-@app.get("/drugs")
+@app.get("/drugs", response_model=List[schemas.Drug])
 def get_all_drugs(
     db: Session = Depends(get_db),
     query: Optional[str] = Query(None),
@@ -104,15 +104,13 @@ def get_all_drugs(
     if drug_class:
         drugs_query = drugs_query.filter(Drug.drug_class.ilike(f"%{drug_class}%"))
 
-    drugs = drugs_query.all()
+    return drugs_query.all()
 
-    return [
-        {
-            "id": drug.id,
-            "name": drug.name,
-            "generic_name": drug.generic_name,
-            "drug_class": drug.drug_class
-        }
-        for drug in drugs
-    ]
 
+@app.get("/drugs/{drug_id}", response_model=schemas.Drug)
+def get_drug_by_id(drug_id: int, db: Session = Depends(get_db)):
+    drug = db.query(Drug).filter(Drug.id == drug_id).first()
+    if not drug:
+        raise HTTPException(status_code=404, detail="Drug not found")
+
+    return drug

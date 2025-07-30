@@ -53,7 +53,7 @@ const Home = () => {
 
             <div className="popular-drugs-card">
                 {popularDrugs.map((drug, idx) => (
-                    <Link to="/#" className="popular-drug-btn" key={idx}>
+                    <Link to={`/drugs/${drug.id}`} className="popular-drug-btn" key={idx}>
                         <div className="drug-item" key={idx}>
                             <span className="arrow">→</span> {drug.name}
                         </div>

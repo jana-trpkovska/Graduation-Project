@@ -10,6 +10,7 @@ class DrugBase(BaseModel):
     side_effects: Optional[str] = None
     drug_class: Optional[str] = None
     generic_name: Optional[str] = None
+    popularity: Optional[int] = None
 
 
 class DrugCreate(DrugBase):
