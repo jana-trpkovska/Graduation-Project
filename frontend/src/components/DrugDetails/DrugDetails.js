@@ -2,6 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import './DrugDetails.css';
 import drugService from '../../repository/Repository';
+import medicalRobot from '../../assets/medical-robot.png';
+import { Link } from "react-router-dom";
 
 const DrugDetails = () => {
     const { id } = useParams();
@@ -14,6 +16,7 @@ const DrugDetails = () => {
             try {
                 const data = await drugService.getDrugById(id);
                 setDrug(data);
+                await drugService.incrementPopularity(id);
             } catch (err) {
                 setError("Drug not found");
             } finally {
@@ -70,6 +73,9 @@ const DrugDetails = () => {
                     </div>
                 </div>
             </div>
+            <Link to="/chatbot" className="fixed-chatbot">
+                <img src={medicalRobot} alt="Chat with assistant" />
+            </Link>
         </div>
     );
 };

@@ -1,6 +1,6 @@
 from typing import Optional, List
 
-from fastapi import FastAPI, HTTPException, Depends, Query
+from fastapi import FastAPI, HTTPException, Depends, Query, Path
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.security import OAuth2PasswordRequestForm
 from pydantic import BaseModel
@@ -114,3 +114,14 @@ def get_drug_by_id(drug_id: int, db: Session = Depends(get_db)):
         raise HTTPException(status_code=404, detail="Drug not found")
 
     return drug
+
+
+@app.post("/drugs/{drug_id}/increment-popularity")
+def increment_popularity(drug_id: int = Path(...), db: Session = Depends(get_db)):
+    drug = db.query(Drug).filter(Drug.id == drug_id).first()
+    if not drug:
+        raise HTTPException(status_code=404, detail="Drug not found")
+
+    drug.popularity += 1
+    db.commit()
+    return {"message": "Popularity incremented", "popularity": drug.popularity}

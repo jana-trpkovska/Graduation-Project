@@ -163,3 +163,30 @@
     text-overflow: ellipsis;
   }
 }
+
+.fixed-chatbot {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  transition: transform 0.2s, box-shadow 0.2s;
+  text-decoration: none;
+}
+
+.fixed-chatbot:hover {
+  transform: scale(1.1);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.5);
+}
+
+.fixed-chatbot img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}

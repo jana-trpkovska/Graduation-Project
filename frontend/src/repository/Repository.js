@@ -62,12 +62,21 @@ const getDrugById = async (id) => {
     }
 };
 
+const incrementPopularity = async (id) => {
+    try {
+        await axios.post(`/drugs/${id}/increment-popularity`);
+    } catch (error) {
+        console.error("Error incrementing popularity:", error);
+    }
+};
+
 const drugService = {
     getPopularDrugs,
     getAllDrugs,
     signUp,
     login,
     getDrugById,
+    incrementPopularity,
 
 };
 

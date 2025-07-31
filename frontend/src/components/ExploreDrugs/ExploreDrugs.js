@@ -4,6 +4,8 @@ import filterIcon from '../../assets/filter.png';
 import searchIcon from '../../assets/search-icon.png';
 import drugService from '../../repository/Repository';
 import { useNavigate } from 'react-router-dom';
+import medicalRobot from '../../assets/medical-robot.png';
+import { Link } from "react-router-dom";
 
 const ExploreDrugs = () => {
     const [drugs, setDrugs] = useState([]);
@@ -238,6 +240,9 @@ const ExploreDrugs = () => {
                     </div>
                 </div>
             </div>
+            <Link to="/chatbot" className="fixed-chatbot">
+                <img src={medicalRobot} alt="Chat with assistant" />
+            </Link>
         </div>
     );
 };

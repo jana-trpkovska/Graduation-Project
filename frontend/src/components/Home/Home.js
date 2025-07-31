@@ -4,6 +4,7 @@ import search from '../../assets/search.png';
 import interactions from '../../assets/pills.png';
 import drugs from '../../assets/my_drugs.png';
 import chatbot from '../../assets/chatbot.png';
+import medicalRobot from '../../assets/medical-robot.png';
 import { Link } from "react-router-dom";
 import drugService from "../../repository/Repository";
 
@@ -60,6 +61,10 @@ const Home = () => {
                     </Link>
                 ))}
             </div>
+
+            <Link to="/chatbot" className="fixed-chatbot">
+                <img src={medicalRobot} alt="Chat with assistant" />
+            </Link>
 
         </div>
     );
