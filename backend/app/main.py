@@ -81,10 +81,10 @@ def get_popular_drugs(db: Session = Depends(get_db)):
 
 @app.get("/drugs", response_model=List[schemas.Drug])
 def get_all_drugs(
-    db: Session = Depends(get_db),
-    query: Optional[str] = Query(None),
-    letter: Optional[str] = Query(None),
-    drug_class: Optional[str] = Query(None)
+        db: Session = Depends(get_db),
+        query: Optional[str] = Query(None),
+        letter: Optional[str] = Query(None),
+        drug_class: Optional[str] = Query(None)
 ):
     drugs_query = db.query(Drug)
 
@@ -125,3 +125,48 @@ def increment_popularity(drug_id: int = Path(...), db: Session = Depends(get_db)
     drug.popularity += 1
     db.commit()
     return {"message": "Popularity incremented", "popularity": drug.popularity}
+
+
+@app.get("/users/me/drugs", response_model=List[schemas.Drug])
+def get_my_drugs(current_user: schemas.User = Depends(auth.get_current_user), db: Session = Depends(get_db)):
+    user = db.query(models.User).filter(models.User.id == current_user.id).first()
+    return user.drugs
+
+
+@app.post("/users/me/drugs", response_model=schemas.Drug)
+def add_drug_to_user(
+    drug_data: schemas.UserDrugCreate,
+    current_user: schemas.User = Depends(auth.get_current_user),
+    db: Session = Depends(get_db)
+):
+    drug = db.query(models.Drug).filter(models.Drug.id == drug_data.drug_id).first()
+    if not drug:
+        raise HTTPException(status_code=404, detail="Drug not found")
+
+    user = db.query(models.User).filter(models.User.id == current_user.id).first()
+    if drug in user.drugs:
+        raise HTTPException(status_code=400, detail="Drug already added")
+
+    user.drugs.append(drug)
+    db.commit()
+    db.refresh(drug)
+    return drug
+
+
+@app.delete("/users/me/drugs/{drug_id}", status_code=204)
+def remove_drug_from_user(
+    drug_id: int,
+    current_user: schemas.User = Depends(auth.get_current_user),
+    db: Session = Depends(get_db)
+):
+    user = db.query(models.User).filter(models.User.id == current_user.id).first()
+    drug = db.query(models.Drug).filter(models.Drug.id == drug_id).first()
+
+    if not drug:
+        raise HTTPException(status_code=404, detail="Drug not found")
+
+    if drug not in user.drugs:
+        raise HTTPException(status_code=400, detail="Drug not in user's list")
+
+    user.drugs.remove(drug)
+    db.commit()

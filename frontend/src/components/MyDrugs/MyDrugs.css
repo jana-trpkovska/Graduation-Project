@@ -1,0 +1,184 @@
+.my-drugs-container{
+    width: 100%;
+    min-height: 90vh;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.my-drugs-title{
+    text-align: center;
+    margin: 0 0 24px 0;
+}
+
+.highlight {
+    color: #FF6A00;
+    font-weight: bold;
+}
+
+.my-drugs-input-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+    gap: 12px;
+}
+
+.my-drugs-input {
+    width: 60%;
+    padding: 10px 16px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    font-size: 1.1rem;
+    height: 48px;
+    outline: none;
+}
+
+.my-drugs-add-btn {
+    background: #0A2773;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 8px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: background 0.2s;
+}
+.my-drugs-add-btn:hover {
+    background: #23214B;
+}
+
+.my-drugs-content {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    margin-top: 24px;
+    align-items: flex-start;
+}
+
+.my-drugs-table-section {
+    flex: 2;
+}
+
+.my-drugs-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: #ffe5cf;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #020f41;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    color: #061744;
+}
+
+.my-drugs-table th, .my-drugs-table td {
+    border: 1px solid #020f41;
+    padding: 16px;
+    text-align: left;
+}
+
+.my-drugs-table th {
+    color: #061744;
+    font-size: 1.1rem;
+}
+
+.my-drugs-table td {
+    font-size: 1.1rem;
+    color: #061744;
+}
+
+.my-drugs-table tbody tr:nth-child(even) {
+    background-color: #ffe5cf;
+}
+
+.my-drugs-table tbody tr:nth-child(odd) {
+    background-color: #fff3e9;
+}
+
+.my-drugs-interactions-section {
+    flex: unset;
+    background: #f7faff;
+    border-radius: 8px;
+    padding: 24px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 280px;
+}
+
+.my-drugs-interactions-title {
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin-bottom: 16px;
+    color: #061744;
+    text-align: left;
+}
+
+.my-drugs-select {
+    width: 100%;
+    padding: 8px 12px;
+    border-radius: 8px;
+    border: 1px solid #bcd;
+    margin-bottom: 12px;
+    font-size: 1rem;
+    background: #eaf1ff;
+}
+
+.my-drugs-selected-list {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.my-drugs-selected-item {
+    background: #fff;
+    border-radius: 6px;
+    padding: 8px 12px;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px #eee;
+    font-size: 1rem;
+}
+
+.my-drugs-remove {
+    margin-left: 8px;
+    cursor: pointer;
+    color: #142b63;
+    height: 20px;
+}
+
+.my-drugs-check-btn {
+    background: #0A2773;
+    color: #fff;
+    border: none;
+    border-radius: 50px;
+    padding: 10px 32px;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    align-self: flex-end;
+    box-shadow: 1px 2px 2px #ccc;
+    transition: background 0.2s;
+}
+.my-drugs-check-btn:hover {
+    background: #23214B;
+}
+
+.my-drugs-table .add-drugs-text{
+    text-align: center !important;
+    font-style: italic;
+    padding: 20px;
+}
+
+.my-drugs-row {
+    cursor: pointer;
+    transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.my-drugs-table tbody tr.my-drugs-row:hover {
+    background-color: #ffba91 !important;
+}

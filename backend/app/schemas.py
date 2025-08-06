@@ -54,3 +54,8 @@ class TokenData(BaseModel):
     username: Optional[str] = None
 
 
+class UserDrugCreate(BaseModel):
+    drug_id: int
+    usage: Optional[str] = None
+
+

@@ -70,6 +70,32 @@ const incrementPopularity = async (id) => {
     }
 };
 
+const getDrugSuggestions = async (query) => {
+    const response = await axios.get('/drugs', { params: { query } });
+
+    return response.data.map(drug => ({
+        id: drug.id,
+        name: drug.name,
+    }));
+};
+
+const getMyDrugs = async () => {
+    const response = await axios.get('/users/me/drugs');
+    return response.data;
+};
+
+const addDrugToUser = async (drugId, usage = '') => {
+    const response = await axios.post('/users/me/drugs', {
+        drug_id: drugId,
+        usage: usage,
+    });
+    return response.data;
+};
+
+const removeDrugFromUser = async (drugId) => {
+    await axios.delete(`/users/me/drugs/${drugId}`);
+};
+
 const drugService = {
     getPopularDrugs,
     getAllDrugs,
@@ -77,6 +103,10 @@ const drugService = {
     login,
     getDrugById,
     incrementPopularity,
+    getDrugSuggestions,
+    getMyDrugs,
+    addDrugToUser,
+    removeDrugFromUser,
 
 };
 

@@ -56,12 +56,14 @@
     color: #061744;
     margin: 0;
     line-height: 1.5;
+    font-size: 1.09rem;
 }
 
 .side-effects-list {
     list-style: none;
     padding: 0;
     margin: 0;
+    font-size: 1.09rem;
 }
 
 .side-effects-list li {
@@ -89,6 +91,7 @@
     color: #061744;
     margin: 0;
     line-height: 1.5;
+    font-size: 1.09rem;
 }
 
 .interaction-section {
@@ -112,7 +115,7 @@
     color: #061744;
     margin: 0 0 1.5rem 0;
     line-height: 1.5;
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 .check-button {
