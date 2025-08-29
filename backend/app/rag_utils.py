@@ -168,6 +168,4 @@ def run_rag(user_question: str, chat_history: list):
     else:
         final_answer = run_retrieval_chain(user_question, chat_history, [])
 
-    chat_history.append({"role": "user", "content": user_question})
-    chat_history.append({"role": "assistant", "content": final_answer})
     return final_answer

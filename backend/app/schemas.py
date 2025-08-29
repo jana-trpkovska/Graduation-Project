@@ -1,5 +1,6 @@
-from pydantic import BaseModel
-from typing import List, Optional
+from pydantic import BaseModel, Field
+from typing import List, Optional, Literal
+from datetime import datetime
 
 
 class DrugBase(BaseModel):
@@ -34,7 +35,7 @@ class UserCreate(UserBase):
 
 class User(UserBase):
     id: int
-    drugs: List[Drug] = []
+    drugs: List[Drug] = Field(default_factory=list)
 
     class Config:
         from_attributes = True
@@ -59,3 +60,37 @@ class UserDrugCreate(BaseModel):
     usage: Optional[str] = None
 
 
+class ChatMessageBase(BaseModel):
+    role: Literal["user", "assistant", "system"]
+    content: str
+
+
+class ChatMessageCreate(ChatMessageBase):
+    pass
+
+
+class ChatMessage(ChatMessageBase):
+    id: int
+    created_at: datetime
+
+    class Config:
+        from_attributes = True
+
+
+class ChatSessionBase(BaseModel):
+    title: Optional[str] = None
+
+
+class ChatSessionCreate(ChatSessionBase):
+    title: str = "New chat"
+
+
+class ChatSession(ChatSessionBase):
+    id: int
+    user_id: int
+    created_at: datetime
+    updated_at: datetime
+    messages: List[ChatMessage] = Field(default_factory=list)
+
+    class Config:
+        from_attributes = True

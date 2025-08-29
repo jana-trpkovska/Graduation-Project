@@ -96,6 +96,79 @@ const removeDrugFromUser = async (drugId) => {
     await axios.delete(`/users/me/drugs/${drugId}`);
 };
 
+const getChats = async () => {
+    try {
+        const response = await axios.get('/chats');
+        return response.data;
+    } catch (error) {
+        console.error("Error fetching chats:", error);
+        throw error;
+    }
+};
+
+const createChat = async (title = "New Chat") => {
+    try {
+        const response = await axios.post('/chats', { title });
+        return response.data;
+    } catch (error) {
+        console.error("Error creating new chat:", error);
+        throw error;
+    }
+};
+
+const getChatMessages = async (chatId) => {
+    try {
+        const response = await axios.get(`/chats/${chatId}/messages`);
+        return response.data;
+    } catch (error) {
+        console.error(`Error fetching messages for chat ${chatId}:`, error);
+        throw error;
+    }
+};
+
+const sendMessage = async (chatId, text) => {
+    try {
+        const response = await axios.post(`/chats/${chatId}/messages`, {
+            role: "user",
+            content: text
+        });
+        return response.data;
+    } catch (error) {
+        console.error("Error sending message:", error);
+        throw error;
+    }
+};
+
+const updateChatTitle = async (chatId, newTitle) => {
+    try {
+        const response = await axios.put(`/chats/${chatId}`, { title: newTitle });
+        return response.data;
+    } catch (error) {
+        console.error("Error updating chat title:", error);
+        throw error;
+    }
+};
+
+const askQuestion = async (chatId, question) => {
+    try {
+        const response = await axios.post(`/chats/${chatId}/ask`, { question });
+        return response.data;
+    } catch (error) {
+        console.error("Error asking question:", error);
+        throw error;
+    }
+};
+
+const deleteChat = async (chatId) => {
+    try {
+        await axios.delete(`/chats/${chatId}`);
+    } catch (error) {
+        console.error("Error deleting chat:", error);
+        throw error;
+    }
+};
+
+
 const drugService = {
     getPopularDrugs,
     getAllDrugs,
@@ -107,6 +180,13 @@ const drugService = {
     getMyDrugs,
     addDrugToUser,
     removeDrugFromUser,
+    getChats,
+    createChat,
+    getChatMessages,
+    sendMessage,
+    updateChatTitle,
+    askQuestion,
+    deleteChat,
 
 };
 

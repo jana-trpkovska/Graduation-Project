@@ -1,15 +1,16 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './Header.css';
 import logo from '../../assets/drugs.png';
 import user from '../../assets/user.png';
 import { Link, useNavigate } from 'react-router-dom';
+import { AuthContext } from '../../context/AuthContext';
 
 const Header = () => {
     const navigate = useNavigate();
-    const isLoggedIn = !!localStorage.getItem('token');
+    const { isAuthenticated, logout } = useContext(AuthContext);
 
     const handleLogout = () => {
-        localStorage.removeItem('token');
+        logout();
         navigate('/login');
     };
 
@@ -25,13 +26,13 @@ const Header = () => {
                     </div>
                     <div className="header-center navbar-collapse justify-content-center">
                         <div className="navbar-nav">
-                            <a className="nav-link me-4" href="/explore-drugs">Explore drugs</a>
+                            <Link className="nav-link me-4" to="/explore-drugs">Explore drugs</Link>
                             <Link className="nav-link me-4" to="/chatbot">Chatbot</Link>
                             <Link className="nav-link" to="/my-drugs">My drugs</Link>
                         </div>
                     </div>
                     <div className="header-right d-flex align-items-center gap-2">
-                        {isLoggedIn ? (
+                        {isAuthenticated ? (
                             <>
                                 <button className="logout-link" onClick={handleLogout}>Log Out</button>
                                 <img src={user} alt="User Icon" className="user-icon" />

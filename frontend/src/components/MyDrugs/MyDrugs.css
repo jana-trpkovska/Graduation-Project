@@ -182,3 +182,14 @@
 .my-drugs-table tbody tr.my-drugs-row:hover {
     background-color: #ffba91 !important;
 }
+
+.alert-message{
+    color: red;
+    font-size: 0.9rem;
+}
+
+.error-message{
+    color: red;
+    font-size: 0.9rem;
+    margin-top: 8px;
+}

@@ -10,6 +10,7 @@ const MyDrugs = () => {
     const [selectedDrugs, setSelectedDrugs] = useState([]);
     const [suggestions, setSuggestions] = useState([]);
     const [selectedSuggestion, setSelectedSuggestion] = useState(null);
+    const [errorMessage, setErrorMessage] = useState('');
     const navigate = useNavigate();
 
     useEffect(() => {
@@ -86,6 +87,26 @@ const MyDrugs = () => {
         }
     };
 
+    const handleCheckInteractions = () => {
+        if (selectedDrugs.length <= 1) {
+            setErrorMessage("Please select at least two drugs.");
+            return;
+        }
+        else {
+            setErrorMessage('')
+        }
+
+        const drugNames = selectedDrugs.map(d => d.name).join(', ');
+        const question = `What happens if I mix ${drugNames}?`;
+
+        navigate("/chatbot", {
+            state: {
+                prefillQuestion: question
+            }
+        });
+    };
+
+
     return (
         <div className="my-drugs-container">
             <h1 className="my-drugs-title"><span className="highlight">My Drugs</span></h1>
@@ -158,7 +179,10 @@ const MyDrugs = () => {
                     <div className="my-drugs-interactions-title">
                         Check for interactions of your drugs
                     </div>
-                    <select className="my-drugs-select" onChange={handleSelectDrug} value="">
+                    <select className="my-drugs-select"
+                            onChange={handleSelectDrug}
+                            value=""
+                            disabled={selectedDrugs.length >= 5}>
                         <option value="">Select drugs</option>
                         {drugs.map((drug, idx) => (
                             <option key={idx} value={drug.name}>{drug.name}</option>
@@ -177,7 +201,21 @@ const MyDrugs = () => {
                             </div>
                         ))}
                     </div>
-                    <button className="my-drugs-check-btn">Check</button>
+                    {selectedDrugs.length >= 5 && (
+                        <p className="alert-message">
+                            Maximum 5 drugs can be selected.
+                        </p>
+                    )}
+                    <button
+                        className="my-drugs-check-btn"
+                        onClick={handleCheckInteractions}>
+                        Check
+                    </button>
+
+                    {errorMessage &&
+                        <p className="error-message">{errorMessage}</p>
+                    }
+
                 </div>
             </div>
         </div>

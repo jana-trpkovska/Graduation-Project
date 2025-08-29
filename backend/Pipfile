@@ -18,6 +18,7 @@ psycopg2-binary = "*"
 passlib = {extras = ["bcrypt"], version = "*"}
 python-jose = "*"
 python-multipart = "*"
+alembic = "*"
 
 [dev-packages]
 

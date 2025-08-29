@@ -1,10 +1,11 @@
-import React, { useState } from 'react';
+import React, {useContext, useState} from 'react';
 import './Login.css';
 import showIcon from '../../assets/show.png';
 import hideIcon from '../../assets/hide.png';
 import bot from "../../assets/medical-robot.png";
 import { Link, useNavigate } from "react-router-dom";
 import drugService from '../../repository/Repository';
+import {AuthContext} from "../../context/AuthContext";
 
 const Login = () => {
     const [showPassword, setShowPassword] = useState(false);
@@ -13,12 +14,14 @@ const Login = () => {
     const [error, setError] = useState(null);
     const navigate = useNavigate();
 
+    const { login } = useContext(AuthContext)
+
     const handleSubmit = async (e) => {
         e.preventDefault();
         setError(null);
         try {
             const data = await drugService.login(username, password);
-            localStorage.setItem('token', data.access_token);
+            login({ username, token: data.access_token });
             navigate('/');
         } catch (err) {
             setError("Invalid username or password");

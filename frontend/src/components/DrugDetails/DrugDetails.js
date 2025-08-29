@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import './DrugDetails.css';
 import drugService from '../../repository/Repository';
 import medicalRobot from '../../assets/medical-robot.png';
@@ -7,6 +7,7 @@ import { Link } from "react-router-dom";
 
 const DrugDetails = () => {
     const { id } = useParams();
+    const navigate = useNavigate();
     const [drug, setDrug] = useState(null);
     const [loading, setLoading] = useState(true);
     const [error, setError] = useState(null);
@@ -29,6 +30,16 @@ const DrugDetails = () => {
 
     if (loading) return <div className="drug-details">Loading...</div>;
     if (error) return <div className="drug-details error">{error}</div>;
+
+    const handleCheckClick = () => {
+        if (drug) {
+            navigate("/chatbot", {
+                state: {
+                    prefillQuestion: `Give me all the drugs that interact with ${drug.name}`
+                }
+            });
+        }
+    };
 
     return (
         <div className="drug-details-container">
@@ -69,7 +80,9 @@ const DrugDetails = () => {
                         <p className="interaction-text">
                             Want to know more about the drugs that interact with {drug.name}?
                         </p>
-                        <button className="check-button">Check</button>
+                        <button className="check-button" onClick={handleCheckClick}>
+                            Check
+                        </button>
                     </div>
                 </div>
             </div>
