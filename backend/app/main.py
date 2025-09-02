@@ -1,4 +1,6 @@
 from typing import Optional, List
+from .models import RefreshToken
+from datetime import datetime, timedelta, timezone
 
 from fastapi import FastAPI, HTTPException, Depends, Query, Path, status, Body
 from fastapi.middleware.cors import CORSMiddleware
@@ -79,7 +81,7 @@ def register(user: schemas.UserCreate, db: Session = Depends(get_db)):
     return new_user
 
 
-@app.post("/login", response_model=schemas.Token)
+@app.post("/login", response_model=schemas.TokenPair)
 def login(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = Depends(get_db)):
     user = db.query(models.User).filter(models.User.username == form_data.username).first()
 
@@ -87,7 +89,55 @@ def login(form_data: OAuth2PasswordRequestForm = Depends(), db: Session = Depend
         raise HTTPException(status_code=401, detail="Invalid credentials")
 
     access_token = auth.create_access_token(data={"sub": user.username})
-    return {"access_token": access_token, "token_type": "bearer"}
+    token = auth.create_refresh_token(data={"sub": user.username})
+
+    expires_at = datetime.now(timezone.utc) + timedelta(days=7)
+    db_refresh = RefreshToken(
+        user_id=user.id,
+        token_jti=token,
+        expires_at=expires_at,
+        revoked=False
+    )
+    db.add(db_refresh)
+    db.commit()
+
+    return {
+        "access_token": access_token,
+        "refresh_token": token,
+        "token_type": "bearer"
+    }
+
+
+@app.post("/refresh", response_model=schemas.Token)
+def refresh_token(token: str = Body(...), db: Session = Depends(get_db)):
+    from jose import JWTError, jwt
+    from .models import RefreshToken
+
+    try:
+        payload = jwt.decode(token, auth.SECRET_KEY, algorithms=[auth.ALGORITHM])
+        username: str = payload.get("sub")
+        if username is None:
+            raise HTTPException(status_code=401, detail="Invalid token")
+
+        db_token = db.query(RefreshToken).filter(RefreshToken.token_jti == token,
+                                                 RefreshToken.revoked == False).first()
+        if not db_token or db_token.expires_at < datetime.now(timezone.utc):
+            raise HTTPException(status_code=401, detail="Refresh token expired or revoked")
+
+        new_access_token = auth.create_access_token(data={"sub": username})
+        return {"access_token": new_access_token, "token_type": "bearer"}
+    except JWTError:
+        raise HTTPException(status_code=401, detail="Invalid refresh token")
+
+
+@app.post("/logout")
+def logout(token: str = Body(...), db: Session = Depends(get_db)):
+    from .models import RefreshToken
+    token_entry = db.query(RefreshToken).filter(RefreshToken.token_jti == token).first()
+    if token_entry:
+        token_entry.revoked = True
+        db.commit()
+    return {"message": "Logged out successfully"}
 
 
 @app.get("/me", response_model=schemas.User)

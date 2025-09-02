@@ -1,4 +1,4 @@
-from sqlalchemy import Column, Integer, String, Text, Table, ForeignKey, DateTime, Enum, func, Index
+from sqlalchemy import Column, Integer, String, Text, Table, ForeignKey, DateTime, Enum, func, Index, Boolean
 from sqlalchemy.orm import relationship
 from sqlalchemy.orm import declarative_base
 
@@ -66,7 +66,22 @@ class ChatMessage(Base):
     chat = relationship("ChatSession", back_populates="messages")
 
 
+class RefreshToken(Base):
+    __tablename__ = "refresh_tokens"
+
+    id = Column(Integer, primary_key=True, index=True)
+    user_id = Column(Integer, ForeignKey("users.id", ondelete="CASCADE"), nullable=False, index=True)
+    token_jti = Column(String(200), unique=True, nullable=False, index=True)
+    expires_at = Column(DateTime(timezone=True), nullable=False)
+    revoked = Column(Boolean, default=False, nullable=False)
+    replaced_by = Column(Integer, ForeignKey("refresh_tokens.id"), nullable=True)
+    created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
+
+    user = relationship("User", back_populates="refresh_tokens")
+
+
 Index("ix_chat_messages_chat_created", ChatMessage.chat_id, ChatMessage.created_at)
 
-
 User.chat_sessions = relationship("ChatSession", back_populates="user", cascade="all, delete-orphan")
+
+User.refresh_tokens = relationship("RefreshToken", back_populates="user", cascade="all, delete-orphan")

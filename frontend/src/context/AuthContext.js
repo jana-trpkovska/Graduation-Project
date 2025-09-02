@@ -14,14 +14,19 @@ export const AuthProvider = ({ children }) => {
         setLoading(false);
     }, []);
 
-    const login = (userData) => {
-        setUser(userData);
+    const login = ({ username, access_token, refresh_token }) => {
+        const userData = { username, access_token, refresh_token };
         localStorage.setItem('user', JSON.stringify(userData));
+        localStorage.setItem('access_token', access_token);
+        localStorage.setItem('refresh_token', refresh_token);
+        setUser(userData);
     };
 
     const logout = () => {
-        setUser(null);
         localStorage.removeItem('user');
+        localStorage.removeItem('access_token');
+        localStorage.removeItem('refresh_token');
+        setUser(null);
     };
 
     const isAuthenticated = !!user;

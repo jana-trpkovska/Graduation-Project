@@ -22,8 +22,13 @@ const Login = () => {
         setError(null);
         try {
             const data = await drugService.login(username, password);
-            login({ username, token: data.access_token });
+            login({
+                username,
+                access_token: data.access_token,
+                refresh_token: data.refresh_token
+            });
             navigate('/');
+
         } catch (err) {
             setError("Invalid username or password");
         }

@@ -75,11 +75,11 @@ const DrugDetails = () => {
                             {drug.side_effects
                                 ? drug.side_effects
                                     .split(';')
-                                    .map(effect => effect.trim()
+                                    .map(effect => effect.trim())
                                     .filter(effect => effect && effect.toLowerCase() !== "or")
                                     .map((effect, index) => (
                                         <li key={index}>{effect}</li>
-                                    )))
+                                    ))
                                 : <li>No side effects listed.</li>
                             }
                         </ul>
