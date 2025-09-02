@@ -11,6 +11,7 @@ const MyDrugs = () => {
     const [suggestions, setSuggestions] = useState([]);
     const [selectedSuggestion, setSelectedSuggestion] = useState(null);
     const [errorMessage, setErrorMessage] = useState('');
+    const [headerHeight, setHeaderHeight] = useState(0);
     const navigate = useNavigate();
 
     useEffect(() => {
@@ -38,6 +39,18 @@ const MyDrugs = () => {
         fetchUserDrugs();
         fetchSuggestions();
     }, [drugInput]);
+
+    useEffect(() => {
+        const header = document.querySelector(".app-header");
+        if (header) setHeaderHeight(header.offsetHeight);
+
+        const handleResize = () => {
+            if (header) setHeaderHeight(header.offsetHeight);
+        };
+
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
 
     const handleRowClick = (drugId) => {
         navigate(`/drugs/${drugId}`);
@@ -108,7 +121,7 @@ const MyDrugs = () => {
 
 
     return (
-        <div className="my-drugs-container">
+        <div className="my-drugs-container" style={{ paddingTop: `${headerHeight}px` }}>
             <h1 className="my-drugs-title"><span className="highlight">My Drugs</span></h1>
             <div className="my-drugs-input-row">
                 <input

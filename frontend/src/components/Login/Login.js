@@ -1,4 +1,4 @@
-import React, {useContext, useState} from 'react';
+import React, {useContext, useEffect, useState} from 'react';
 import './Login.css';
 import showIcon from '../../assets/show.png';
 import hideIcon from '../../assets/hide.png';
@@ -12,6 +12,7 @@ const Login = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
     const [error, setError] = useState(null);
+    const [headerHeight, setHeaderHeight] = useState(0);
     const navigate = useNavigate();
 
     const { login } = useContext(AuthContext)
@@ -28,8 +29,20 @@ const Login = () => {
         }
     };
 
+    useEffect(() => {
+        const header = document.querySelector(".app-header");
+        if (header) setHeaderHeight(header.offsetHeight);
+
+        const handleResize = () => {
+            if (header) setHeaderHeight(header.offsetHeight);
+        };
+
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
+
     return (
-        <div className="login-page">
+        <div className="login-page" style={{ paddingTop: `${headerHeight}px` }}>
             <div className="login-card">
                 <h2 className="login-title">Login</h2>
                 <img src={bot} alt="Bot Logo" className="bot-icon"/>

@@ -17,6 +17,7 @@ const ExploreDrugs = () => {
     const [sidebarOpen, setSidebarOpen] = useState(false);
     const [expandFirstLetter, setExpandFirstLetter] = useState(false);
     const [expandDrugClass, setExpandDrugClass] = useState(false);
+    const [headerHeight, setHeaderHeight] = useState(0);
     const drugsPerPage = 18;
     const navigate = useNavigate();
 
@@ -38,6 +39,18 @@ const ExploreDrugs = () => {
 
     useEffect(() => {
         fetchFilteredDrugs();
+    }, []);
+
+    useEffect(() => {
+        const header = document.querySelector(".app-header");
+        if (header) setHeaderHeight(header.offsetHeight);
+
+        const handleResize = () => {
+            if (header) setHeaderHeight(header.offsetHeight);
+        };
+
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
     }, []);
 
     const handleSearch = () => {
@@ -102,7 +115,7 @@ const ExploreDrugs = () => {
     const uniqueClasses = [...new Set(drugs.map(d => d.drug_class).filter(Boolean))];
 
     return (
-        <div className="explore-drugs-container">
+        <div className="explore-drugs-container" style={{ paddingTop: `${headerHeight}px` }}>
             <h1 className="explore-drugs-title"><span className="highlight">Explore drugs</span></h1>
             <div className="explore-drugs-toolbar">
                 <button className="filter-btn" onClick={() => setSidebarOpen(s => !s)}>

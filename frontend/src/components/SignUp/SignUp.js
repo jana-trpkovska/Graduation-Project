@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, {useEffect, useState} from 'react';
 import '../Login/Login.css';
 import showIcon from '../../assets/show.png';
 import hideIcon from '../../assets/hide.png';
@@ -14,6 +14,7 @@ const SignUp = () => {
     const [password, setPassword] = useState('');
     const [repeatPassword, setRepeatPassword] = useState('');
     const [error, setError] = useState('');
+    const [headerHeight, setHeaderHeight] = useState(0);
 
     const handleShowPassword = () => setShowPassword(prev => !prev);
     const handleShowRepeatPassword = () => setShowRepeatPassword(prev => !prev);
@@ -35,8 +36,20 @@ const SignUp = () => {
         }
     };
 
+    useEffect(() => {
+        const header = document.querySelector(".app-header");
+        if (header) setHeaderHeight(header.offsetHeight);
+
+        const handleResize = () => {
+            if (header) setHeaderHeight(header.offsetHeight);
+        };
+
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
+
     return (
-        <div className="login-page">
+        <div className="login-page" style={{ paddingTop: `${headerHeight}px` }}>
             <div className="login-card">
                 <h2 className="login-title">Sign Up</h2>
                 <img src={bot} alt="Bot Logo" className="bot-icon" />

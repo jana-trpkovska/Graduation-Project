@@ -30,6 +30,7 @@ const Chatbot = () => {
     const location = useLocation();
     const hasInitializedPrefill = useRef(false);
     const prefillQuestion = location.state?.prefillQuestion || null;
+    const [headerHeight, setHeaderHeight] = useState(0);
 
     const DEFAULT_GREETING = 'Hello! How can I help you today?';
 
@@ -64,6 +65,18 @@ const Chatbot = () => {
             })();
         }
     }, [prefillQuestion]);
+
+    useEffect(() => {
+        const header = document.querySelector(".app-header");
+        if (header) setHeaderHeight(header.offsetHeight);
+
+        const handleResize = () => {
+            if (header) setHeaderHeight(header.offsetHeight);
+        };
+
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
 
     const sendPrefilledMessage = async (chatId, question) => {
         if (!chatId || !question) return;
@@ -256,8 +269,79 @@ const Chatbot = () => {
         }
     };
 
+    const formatBotMessage = (text) => {
+        if (!text) return null;
+
+        const cleanedText = text
+            .replace(/^\s*\d+\s*$/gm, '')
+            .replace(/^\s*or\s*$/gim, '')
+            .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>');
+
+
+        const lines = cleanedText.split(/\n+/);
+        const formattedElements = [];
+        let listItems = [];
+
+        const pushList = () => {
+            if (listItems.length) {
+                formattedElements.push(
+                    <ul key={`list-${formattedElements.length}`} className="formatted-list">
+                        {listItems.map((item, i) => (
+                            <li key={i} dangerouslySetInnerHTML={{ __html: item }} />
+                        ))}
+                    </ul>
+                );
+                listItems = [];
+            }
+        };
+
+        lines.forEach((line, index) => {
+            const trimmed = line.trim();
+            if (!trimmed) return;
+
+            if (/^[A-Za-z\s]+:$/.test(trimmed)) {
+                pushList();
+                formattedElements.push(
+                    <h4 key={`h-${index}`} className="formatted-heading">
+                        {trimmed.replace(':', '')}
+                    </h4>
+                );
+                return;
+            }
+
+            if (/^\d+\./.test(trimmed) || trimmed.startsWith('-') || trimmed.startsWith('•')) {
+                listItems.push(trimmed.replace(/^\d+\.\s*|^-+\s*|^•\s*/, ''));
+            } else {
+                pushList();
+                formattedElements.push(
+                    <p
+                        key={`p-${index}`}
+                        className="formatted-paragraph"
+                        dangerouslySetInnerHTML={{ __html: highlightKeywords(trimmed) }}
+                    />
+
+                );
+            }
+        });
+
+        pushList();
+        return formattedElements;
+    };
+
+    const highlightKeywords = (text) => {
+        const keywords = ['Side effects', 'Warnings', 'Important', 'Symptoms'];
+        let formattedText = text;
+
+        keywords.forEach(keyword => {
+            const regex = new RegExp(`(${keyword})`, 'gi');
+            formattedText = formattedText.replace(regex, '<strong>$1</strong>');
+        });
+
+        return formattedText;
+    };
+
     return (
-        <div className="chatbot-fullbleed">
+        <div className="chatbot-fullbleed" style={{ paddingTop: `${headerHeight}px` }}>
             <div className="chatbot-page">
                 <aside className={`sidebar ${isSidebarOpen ? 'open' : 'closed'}`}>
                     <div className="sidebar-header">
@@ -358,7 +442,9 @@ const Chatbot = () => {
                                                     <span></span><span></span><span></span>
                                                 </span>
                                             ) : (
-                                                msg.content
+                                                msg.role === 'assistant'
+                                                    ? formatBotMessage(msg.content)
+                                                    : msg.content
                                             )}
                                         </div>
                                         {msg.role === 'user' && (

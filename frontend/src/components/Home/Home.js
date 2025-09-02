@@ -17,6 +17,7 @@ const featureButtons = [
 
 const Home = () => {
     const [popularDrugs, setPopularDrugs] = useState([]);
+    const [headerHeight, setHeaderHeight] = useState(0);
 
     useEffect(() => {
         const fetchPopularDrugs = async () => {
@@ -31,8 +32,20 @@ const Home = () => {
         fetchPopularDrugs();
     }, []);
 
+    useEffect(() => {
+        const header = document.querySelector(".app-header");
+        if (header) setHeaderHeight(header.offsetHeight);
+
+        const handleResize = () => {
+            if (header) setHeaderHeight(header.offsetHeight);
+        };
+
+        window.addEventListener("resize", handleResize);
+        return () => window.removeEventListener("resize", handleResize);
+    }, []);
+
     return (
-        <div className="home-container">
+        <div className="home-container" style={{ paddingTop: `${headerHeight}px` }}>
             <div className="home-header">
                 <h1><span className="highlight">Welcome to AppName</span></h1>
                 <p className="subtitle">Your Personal Drug Info Assistant!</p>
